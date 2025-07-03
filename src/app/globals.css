@@ -3,3 +3,21 @@
 @theme{
     --color-primary: #FF0000;
 }
+
+.active-card{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out !important;
+    transform: translateX();
+}
+.prev-card, .next-card{
+    opacity: 0.5;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out !important;
+}
+.prev-card{
+    transform: translateX(-17vw);
+}
+.next-card{
+    transform: translateX(17vw);
+}
