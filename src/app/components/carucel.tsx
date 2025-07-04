@@ -1,16 +1,16 @@
 "use client" 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Category } from "../types/category";
 import { clothe } from "../types/clothe";
 import Image from "next/image";
 
 export default function Carucel ({ active, title, products}: { active: number , title:string, products:Category[] | clothe[]}) {
-    const [props] = useState<Category[] | clothe[]>(products);
+    const [props, setProps] = useState<Category[] | clothe[]>(products);
     const prev = active === 0 ? props.length - 1 : active - 1 ;
     const next = active === props.length - 1 ? 0 : active + 1 ;
-    
-    // Transición de slide: mueve el carrusel según el índice activo
-    // Se puede mejorar con un efecto más avanzado si lo deseas
+    useEffect(()=>{
+        setProps(products)
+    },[products])
     return (
         <section className="w-full h-full bg-gray-500 flex flex-col items-center justify-center px-30 bg-amber">
             <h1 className="text-center text-7xl text-gray-800 font-bold mb-5">{title}</h1>

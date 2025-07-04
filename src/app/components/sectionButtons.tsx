@@ -22,12 +22,15 @@ export default function SectionButtons(
                             {`<`}
                     </button>
                 }
-                <button 
-                    onClick={()=>{principal(); }} 
-                    className="absolute -top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 h-24 w-24 border-4 border-white group  hover:border-white/80 p-1 hover:p-2 transition flex items-center justify-center rounded-full cursor-pointer"
-                    >
-                    <span className="block w-full h-full bg-white rounded-full group-hover:bg-white/80 transition"></span>
-                </button>
+                {
+                    principal && 
+                        <button 
+                            onClick={()=>{principal(); }} 
+                            className="absolute -top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 h-24 w-24 border-4 border-white group  hover:border-white/80 p-1 hover:p-2 transition flex items-center justify-center rounded-full cursor-pointer"
+                            >
+                            <span className="block w-full h-full bg-white rounded-full group-hover:bg-white/80 transition"></span>
+                        </button>
+                }
                 {next && 
                     <button 
                         onClick={()=>{next(); }}

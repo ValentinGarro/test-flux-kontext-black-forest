@@ -13,11 +13,11 @@ import { Category } from "../types/category";
 import Modal from "./modal";
 import Carucel from "./carucel";
 import { clothe } from "../types/clothe";
+import Image from "next/image";
+import { base64ToBlob } from "../helpers/fun";
 
 export default function Home() {
     const [imgResult, setImgResult] = useState<string | null>(null);
-    const [error, setError] = useState<string[] | null>(null);  
-    const [active, setActive] = useState<number>(0);
     const form = useForm({
         resolver: zodResolver(createImgSchema),
         defaultValues: {
@@ -31,40 +31,6 @@ export default function Home() {
         },
     });
     const {setValue } = form;  
-    const onSubmit = async (data: CreateImg) => {
-        try	{
-            setLoader(true); 
-            const formData = new FormData();
-            formData.append("imagen", data.model); // O "model" si así lo espera el backend
-            formData.append("prompt", data.clothe.prompt);
-
-            const response = await axios.post("/api/espejo-magico", formData, {
-            headers: {
-                "Content-Type": "multipart/form-data"
-            }
-            }); 
-            const { imagen_generada } = response.data;
-            setImgResult(imagen_generada);
-            setTimeout(() => {
-                setLoader(false);
-            }, 1000);
-        }catch(err){  
-            setError([err.response.data.error]);
-            setTimeout(() => {
-                setLoader(false);
-            }, 1000);
-        }
-    };
-    const fetchClothes = async () => {
-        try {
-            const response = await axios.get("/api/products");
-        }catch(err){
-            setError([err.response.data.error]);
-        }
-    };
-    useEffect(() => {
-        fetchClothes();
-    }, []);
     /*Loader */
     const [loader, setLoader] = useState<boolean>(false);
 
@@ -86,24 +52,18 @@ export default function Home() {
     
     /*Carrucel categorias */
     const [ccActive, setCcActive] = useState<number>(0);
+    const [cpActive, setCpActive] = useState<number>(0);
     const [categories, setCategories] = useState<Category[]>([]);
     const [categorySelect, setCategorySelect] = useState<Category | null>(null);
     const [products, setProducts] = useState<clothe[]>([]);
+    const [productSelect, setProductSelect] = useState<clothe | null>(null);
     useEffect(() => {
         const fetchCategories = async () => {
             const response = await axios.get("/api/categories"); 
             setCategories(response.data);
         };
         fetchCategories();
-    }, []);
-    /*Carrucel productos */
-    useEffect(()=>{
-        const fetchProducts = async () => {
-            const response = await axios.get(`/api/products/${categorySelect?.id}`);
-            setProducts(response.data);
-        };
-        fetchProducts();    
-    },[categorySelect])
+    }, []); 
     /*Funciones de la botonera */
     const [functionPrincipal, setFunctionPrincipal] = useState<()=>void>(null);
     const [functionRevers, setFunctionRevers] = useState<()=>void | null>(null);
@@ -144,14 +104,49 @@ export default function Home() {
 
         } 
     }); 
-    const funPStep1 = higthFun(() =>{ 
+    const funPStep1 = async (idx:number) => { 
+        setLoader(true);
         setShowModal(false); 
-        setImgModal(null);
+        setImgModal(null); 
+        const selectedCategory = categories[idx]; 
+        setCategorySelect(selectedCategory);
+    
+        // Hacé el fetch directamente con el id de la categoría seleccionada
+        const response = await axios.get(`/api/products/${selectedCategory.id}`);
+        setProducts(response.data);
+    
+        setLoader(false);
+        setCpActive(0);
         setStep(2);  
-    });
-    const funPStep2 = higthFun(() => { 
-        setCategorySelect(categories[ccActive]); 
-    })
+    };
+    const funPStep2 =  async () => {   
+        setLoader(true);
+        setShowModal(false);
+        const data = form.getValues();
+        console.log(data)
+        try	{ 
+            const formData = new FormData();
+            const base64 = data.model;
+            const blob = base64ToBlob(base64);
+            formData.append("imagen", blob, "foto.png");
+            formData.append("prompt", data.clothe.prompt);
+
+            const response = await axios.post("/api/espejo-magico", formData, {
+            headers: {
+                "Content-Type": "multipart/form-data"
+            }
+            }); 
+            const { imagen_generada } = response.data;
+            setImgResult(imagen_generada);  
+            setStep(3);
+            
+        }catch(err){  
+            setNotification(err.response.data.error as string); 
+        }finally{
+            setTimeout(()=>setLoader(false),1000)
+        }
+        
+    };
     /*Funciones revers por step */
     const funRStep0 = higthFun(() =>{
         setShowModal(false);
@@ -164,12 +159,29 @@ export default function Home() {
         setStep(0);
         setCcActive(0);
     });
-    const funRStep2 = higthFun(() => {
-        setStep(0);
-        setCcActive(0);
-        setStep(1);
+    const funRStep2 = higthFun(() => { 
+        if(form.getValues("clothe")){
+            setShowModal(false); 
+            setTimeout(()=>{
+                setTitleModal(null); 
+                setImgModal(form.getValues("model") as string); 
+            },600)
+            setValue("clothe", null, { shouldValidate: true });
+        }else{
+            
+            setProducts(null);
+            setStep(1);
+            setCpActive(0);
+        }
     });
-    useEffect(()=>{
+    const funRStep3 = higthFun(() => { 
+        setStep(2);
+        setImgResult(null);
+        setImgModal(form.getValues("clothe").img);
+        setTitleModal(form.getValues("clothe").name);
+        setShowModal(true);
+    });
+    useEffect(()=>{ 
         console.log(step)
         switch(step){
             case 0:
@@ -179,18 +191,31 @@ export default function Home() {
                 setFunctionPrev(null);
                 break;
             case 1:
-                setFunctionPrincipal(() => funPStep1);
+                setFunctionPrincipal(() => ()=> funPStep1(ccActive));
                 setFunctionRevers(() => funRStep1); 
+               
                 setFunctionNext(() => () => setCcActive(prev => (prev + 1) % categories.length));
                 setFunctionPrev(() => () => setCcActive(prev => (prev - 1 + categories.length) % categories.length));
                 break; 
-            case 2:
-                setFunctionPrincipal(() => funPStep2);  
-                setFunctionRevers(() => funRStep2);  
+            case 2:  
+                if(!form.getValues("clothe") || form.getValues("clothe").id === "0"){   
+                    setFunctionPrincipal(()=> ()=> setValue("clothe",products[cpActive],{shouldValidate:true}))
+                }else{
+                    setFunctionPrincipal(() => funPStep2  );  
+                } 
+                setFunctionNext(() => () => setCpActive(prev => (prev + 1) % products.length));
+                setFunctionPrev(() => () => setCpActive(prev => (prev - 1 + products.length) % products.length));
+                setFunctionRevers(() => funRStep2);   
+                break; 
+            case 3:
+                setFunctionNext(null);
+                setFunctionPrev(null);
+                setFunctionPrincipal(() => null);  
+                setFunctionRevers(() => funRStep3);  
                 break; 
             
         }
-    },[step])
+    },[step, categorySelect,ccActive,cpActive,form.watch("clothe")])
     
     /*Render dependiendo del paso */
     const render = () => {
@@ -202,7 +227,17 @@ export default function Home() {
             case 1:
                 return <Carucel  title="Categorias" active={ccActive} products={categories} />
             case 2 :
-                return <Carucel  title="Prendas" active={ccActive} products={products} />
+                return <Carucel  title="Prendas" active={cpActive} products={products} />
+            case 3:
+                return <div className="m-auto w-[50vw] h-[90vh] mt-[5vh] flex items-center justify-center"> 
+                        <Image 
+                            src={imgResult}
+                            alt="img result"
+                            width={2000}
+                            height={2000}
+                            className="w-full h-full object-fill"
+                        />
+                </div>
         }
     } 
     /*Modal */
@@ -213,10 +248,10 @@ export default function Home() {
         const modelValue = form.watch("model");
         const clotheValue = form.watch("clothe");
     
-        if (typeof modelValue === "string" && modelValue.startsWith("data:image")) {
+        if (step === 0 &&typeof modelValue === "string" && modelValue.startsWith("data:image")) {
             setImgModal(modelValue); 
             setShowModal(true); 
-        } else if (clotheValue && clotheValue.img) {
+        } else if (step === 2 &&clotheValue && clotheValue.img) { 
             setShowModal(true);
             setImgModal(clotheValue.img);
             setTitleModal(clotheValue.name); 
