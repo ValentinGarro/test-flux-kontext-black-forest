@@ -2,8 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { createImgSchema } from "../schemas/createImg";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { CreateImg } from "../types/createImg";  
+import { zodResolver } from "@hookform/resolvers/zod"; 
 import axios from "axios"; 
 import Camera from "./camera";
 import { showToast, SonnerSimple } from "./SonnerSimple";
@@ -227,7 +226,7 @@ export default function Home() {
             case 2 :
                 return <Carucel  title="Prendas" active={cpActive} products={products} />
             case 3:
-                return <div className="m-auto w-[50vw] h-[90vh] mt-[5vh] flex items-center justify-center "> 
+                return <div className="m-auto w-[100vw] h-full flex items-center justify-center "> 
                         <Image 
                             src={imgResult}
                             alt="img result"
