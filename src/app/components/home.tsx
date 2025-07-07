@@ -229,7 +229,7 @@ export default function Home() {
             case 2 :
                 return <Carucel  title="Prendas" active={cpActive} products={products} />
             case 3:
-                return <div className="m-auto w-[50vw] h-[90vh] mt-[5vh] flex items-center justify-center"> 
+                return <div className="m-auto w-[50vw] h-[90vh] mt-[5vh] flex items-center justify-center "> 
                         <Image 
                             src={imgResult}
                             alt="img result"
@@ -257,10 +257,30 @@ export default function Home() {
             setTitleModal(clotheValue.name); 
         } 
     }, [form.watch("model"), form.watch("clothe")]);
-    
-
+    /*Cuando se abra el modal los botones del carrucel son null */
+    useEffect(() => {
+        if (showModal) {
+          setFunctionNext(null);
+          setFunctionPrev(null);
+        } else {
+          // Restaura el comportamiento normal según el paso
+          switch(step){
+            case 1:
+              setFunctionNext(() => () => setCcActive(prev => (prev + 1) % categories.length));
+              setFunctionPrev(() => () => setCcActive(prev => (prev - 1 + categories.length) % categories.length));
+              break;
+            case 2:
+              setFunctionNext(() => () => setCpActive(prev => (prev + 1) % products.length));
+              setFunctionPrev(() => () => setCpActive(prev => (prev - 1 + products.length) % products.length));
+              break;
+            default:
+              setFunctionNext(null);
+              setFunctionPrev(null);
+          }
+        }
+      }, [showModal, step, categories, products]);
     return (
-        <main className="h-[100vh] w-full overflow-hidden relative">
+        <main className="h-[100vh] w-full overflow-hidden relative bg-amber-50">
             <SonnerSimple /> 
             <Loader show={loader}/> 
             { render()}

@@ -2,7 +2,7 @@ export default function Loader(
    {show}: {show: boolean}
 ) {
   return (
-    <div className="fixed inset-0 z-99 bg-black/60 flex items-center justify-center pointer-events-auto transition duration-500"
+    <div className="fixed inset-0 z-[1000] bg-black/60 flex items-center justify-center pointer-events-auto transition duration-500"
         style={{
             opacity: show ? 1 : 0,
             visibility: show ? "visible" : "hidden",
