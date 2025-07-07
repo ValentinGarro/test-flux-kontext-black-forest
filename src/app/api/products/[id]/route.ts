@@ -5,8 +5,7 @@ import path from "path";
 // Recibe el id de la categoría desde los params
 export async function GET(request: Request, { params }: { params: { id: string } }) {
   try { 
-    const categoryId = params.id;
-    console.log(categoryId);
+    const categoryId = params.id; 
     const filePath = path.join(process.cwd(), "src/app/api/products.json");
     const data = await fs.readFile(filePath, "utf-8");
     const products = JSON.parse(data);

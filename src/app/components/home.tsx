@@ -122,8 +122,7 @@ export default function Home() {
     const funPStep2 =  async () => {   
         setLoader(true);
         setShowModal(false);
-        const data = form.getValues();
-        console.log(data)
+        const data = form.getValues(); 
         try	{ 
             const formData = new FormData();
             const base64 = data.model;
@@ -181,8 +180,7 @@ export default function Home() {
         setTitleModal(form.getValues("clothe").name);
         setShowModal(true);
     });
-    useEffect(()=>{ 
-        console.log(step)
+    useEffect(()=>{  
         switch(step){
             case 0:
                 setFunctionPrincipal(() => funPStep0);
