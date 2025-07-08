@@ -42,7 +42,7 @@ export async function POST(req: Request) {
 
         // Enviar la imagen + prompt a Black Forest Labs
         const response = await axios.post(
-          'https://api.bfl.ai/v1/flux-kontext-pro',
+          process.env.NEXT_PUBLIC_GENERETE,
           {
             prompt,
             input_image: base64Image, 

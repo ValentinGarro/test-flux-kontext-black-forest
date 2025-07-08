@@ -3,7 +3,7 @@
     "id": "1",
     "name": "Remera básica blanca",
     "img": "/bd-img/01.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved raglan T-shirt featuring a solid white body and contrasting black sleeves and ribbed crew neckline. The garment has a simple, sporty style with no visible embellishments, fasteners, or pockets. The fabric appears to be lightweight cotton or a cotton-blend jersey, with a soft matte texture and smooth surface. It has a straight, relaxed cut that falls naturally from the shoulders and offers a comfortable fit. The length is standard, ending slightly below the waist, with clean-finished hems on both the sleeves and bottom edge.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -13,7 +13,7 @@
     "id": "2",
     "name": "Remera rayada azul",
     "img": "/bd-img/02.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved T-shirt featuring a horizontal striped pattern in navy blue and white. The fabric appears to be lightweight cotton with a soft, slightly worn texture and matte finish. The shirt has a relaxed fit with a straight cut, providing comfort and ease of movement. The length is standard, ending at the hips. It includes a round neckline with a short Henley-style button placket consisting of four small brown buttons. A small patch pocket is located on the left chest, partially aligned with the stripe pattern. The sleeve hems and bottom edge are simple and unembellished, with minor natural curling at the edges.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -23,7 +23,7 @@
     "id": "3",
     "name": "Remera deportiva negra",
     "img": "/bd-img/03.webp",
-    "prompt": "Dress the original subject in the provided image with a plain black short-sleeved T-shirt in a modern casual style. The shirt is entirely black with no visible patterns, graphics, or embellishments. The fabric appears to be a lightweight, stretchy cotton or cotton-blend jersey with a soft and smooth texture, offering a slightly matte finish with minimal sheen. It has a fitted cut that gently contours the torso without being too tight, providing a clean and contemporary silhouette. The length is standard, ending just below the waist. The neckline is a classic crew neck with a slightly thicker ribbed band. The sleeve and bottom hems are cleanly stitched, with no visible decorative details, pockets, buttons, or zippers.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -33,7 +33,7 @@
     "id": "4",
     "name": "Remera oversize verde",
     "img": "/bd-img/04.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved T-shirt in a solid emerald green color, featuring a large white printed design on the back. The print includes the word 'NATURE' in bold capital letters, followed by smaller text and botanical illustrations of flowers, leaves, and butterflies, arranged in a scientific or educational style. The fabric appears to be medium-weight cotton with a soft, matte finish and smooth surface. The shirt has a straight, relaxed cut with a comfortable loose fit. It has a standard length falling just below the waist. The neckline is a classic crew neck with a narrow ribbed band, and the sleeve and bottom hems are cleanly stitched. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -43,7 +43,7 @@
     "id": "5",
     "name": "Remera estampada roja",
     "img": "/bd-img/05.webp",
-    "prompt": "Dress the original subject in the provided image with a plain red short-sleeved T-shirt in a casual style. The shirt is entirely red with no patterns, prints, or decorative elements. The fabric appears to be lightweight cotton or a cotton-blend jersey with a soft texture and matte finish. It features a straight cut with a regular fit, offering a balance between comfort and structure. The length is standard, falling just below the waist. The neckline is a classic crew neck with a narrow ribbed band, and the hems on the sleeves and bottom are neatly finished. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -53,7 +53,7 @@
     "id": "6",
     "name": "Camisa formal celeste",
     "img": "/bd-img/06.webp",
-    "prompt": "Dress the original subject in the provided image with a light blue long-sleeved dress shirt in a formal business style. The shirt features a pointed collar, a front button placket with small matching blue buttons, and a single patch pocket on the left chest. The fabric appears to be a lightweight cotton or cotton-blend poplin with a smooth, matte texture, slightly crisp and structured. The cut is straight and classic, offering a regular fit that is neither too tight nor oversized. The sleeves are full-length with buttoned cuffs, and the hem is slightly rounded, designed to be tucked in if desired. No additional embellishments, zippers, or decorative elements are visible.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -63,7 +63,7 @@
     "id": "7",
     "name": "Camisa de jean",
     "img": "/bd-img/07.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved button-up denim shirt in a rugged casual style. The shirt is solid dark blue with a slightly textured, matte finish typical of medium-weight denim or denim-like cotton fabric. It features a structured pointed collar, a full-length front button placket with visible matching buttons, and two symmetrical chest flap pockets with button closures. The shirt has a straight, loose fit that allows for comfort and layering. The sleeves include buttoned cuffs, and the bottom hem is slightly curved. There are no decorative prints or additional embellishments.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -73,7 +73,7 @@
     "id": "8",
     "name": "Camisa cuadros roja",
     "img": "/bd-img/08.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved gingham shirt in a casual-smart style, featuring a red and white small checkered pattern evenly distributed across the entire garment. The fabric appears to be lightweight cotton with a soft, breathable texture and a matte finish. The shirt has a fitted cut that contours the torso for a clean, tailored silhouette. It includes a classic pointed collar, a front button placket with small white buttons, and a single chest pocket on the left side that aligns with the checkered pattern. The sleeves are full-length with buttoned cuffs and an optional button tab for rolling them up. The hem is slightly rounded for versatility in styling. No additional embellishments or decorative elements are present.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -83,7 +83,7 @@
     "id": "9",
     "name": "Camisa lino blanca",
     "img": "/bd-img/09.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved white button-up shirt in a relaxed casual style. The shirt is plain white with no patterns or embellishments. The fabric appears to be lightweight cotton or a cotton-blend with a smooth, matte texture and soft drape. It features a pointed collar, a standard front button placket with small white buttons, and a single patch pocket on the left chest. The shirt has a straight, loose fit with a slightly oversized silhouette. The cuffs are buttoned but shown rolled up, and the hem is slightly curved. The shirt is designed to be worn open or closed, making it suitable for layering over a T-shirt or on its own.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -93,7 +93,7 @@
     "id": "10",
     "name": "Camisa manga corta estampada",
     "img": "/bd-img/10.webp",
-    "prompt": "Dress the original subject in the provided image with a short-sleeved Hawaiian shirt in a tropical casual style. The shirt features a dark navy blue base color with a vibrant all-over print of red, white, and pink hibiscus flowers, green palm leaves, and illustrated flamingos. The fabric appears to be lightweight cotton or a cotton-blend, offering a soft, breathable texture with a slightly crisp matte finish. It has a relaxed, straight cut that drapes loosely on the body for comfort and ease of movement. The shirt includes a standard spread collar, a front button placket with white buttons, and a straight hem designed to be worn untucked. There are no visible pockets, zippers, or additional embellishments beyond the print.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -103,7 +103,7 @@
     "id": "11",
     "name": "Vestido largo azul",
     "img": "/bd-img/11.webp",
-    "prompt": "Dress the original subject in the provided image with a strapless evening gown in a deep royal blue color, designed in a formal and elegant style. The bodice is fitted with a sweetheart neckline, subtly decorated with small, tone-on-tone embellishments that add texture and a hint of sparkle. The fabric appears to be taffeta or a similar medium-weight, slightly glossy material with a structured drape. The gown has a form-fitting upper section that flares into a voluminous, gathered skirt with dramatic horizontal ruching and layered folds, creating a cascading effect. The dress is full-length, extending to the floor. There are no visible zippers, sleeves, or additional adornments beyond the texture and sculpted silhouette.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -113,7 +113,7 @@
     "id": "12",
     "name": "Vestido corto negro",
     "img": "/bd-img/12.webp",
-    "prompt": "Dress the original subject in the provided image with a sleeveless black dress in a modern casual style. The dress features a square neckline and wide shoulder straps with scalloped edges. Both the neckline and hem are adorned with symmetrical metallic eyelet grommets, adding a bold decorative detail. The fabric appears to be a medium-weight knit with a matte texture and slight stretch, offering structure while remaining soft and comfortable. The bodice is fitted through the waist, and the skirt flares gently into an A-line silhouette. The length is above the knee, providing a balanced, flattering proportion. There are no visible zippers, buttons, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -123,7 +123,7 @@
     "id": "13",
     "name": "Vestido floreado",
     "img": "/bd-img/13.webp",
-    "prompt": "Dress the original subject in the provided image with a pastel pink sleeveless slip dress in a romantic and elegant style. The dress features a subtle all-over floral print in soft hues of pink, peach, and light yellow. It is made from a lightweight, glossy satin or silk-like fabric with a fluid, smooth texture and gentle sheen. The cut is body-hugging through the torso and hips, flaring slightly below the knees for a mermaid silhouette. It includes thin spaghetti straps, a softly draped cowl neckline, and a distinctive gathered detail with a vertical ruffle accent near the lower hem on one side. The length is mid-calf to ankle. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -133,7 +133,7 @@
     "id": "14",
     "name": "Vestido de fiesta dorado",
     "img": "/bd-img/14.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved full-length evening gown entirely covered in gold sequins. The dress is designed in a high-glamour, formal style with a close-fitting silhouette that gently hugs the body down to the ankles. It features a high neckline, full-length sleeves, and a straight hemline that extends to the floor. The material appears to be a stretch base fabric fully embellished with densely packed reflective gold sequins, giving it a brilliant, shimmering texture under light. The structure is elegant and elongated, without visible buttons, zippers, pockets, or additional decorations.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -143,7 +143,7 @@
     "id": "15",
     "name": "Vestido casual verde",
     "img": "/bd-img/15.webp",
-    "prompt": "Dress the original subject in the provided image with a short-sleeved skater dress in a deep forest green color. The dress is designed in a casual-elegant style with a soft, stretch-knit fabric that appears lightweight and slightly textured with a matte finish. It features a V-neckline with subtle crossover pleating at the bust, providing gentle shaping. The fit is snug at the waist and flares into an A-line skirt, creating a balanced and flattering silhouette. The hemline falls mid-thigh. There are no visible pockets, buttons, zippers, or embellishments, giving the garment a clean, streamlined appearance.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -153,7 +153,7 @@
     "id": "16",
     "name": "Pantalón de jean azul",
     "img": "/bd-img/16.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of classic dark blue denim jeans in a slim straight-cut style. The jeans are made from medium-weight denim with a slightly rigid texture and a matte finish. The fit is tailored through the hips and thighs, tapering subtly down the legs without being tight. The garment includes a traditional five-pocket construction: two front pockets, one coin pocket, and two back pockets. Visible features include a button closure at the waistband, a front zipper fly, and copper-colored stitching that outlines the seams and pockets. The length is standard, designed to reach the ankles with a clean hem finish.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -163,7 +163,7 @@
     "id": "17",
     "name": "Pantalón jogger gris",
     "img": "/bd-img/17.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of light grey casual drawstring pants. These pants feature a relaxed, straight-leg cut with a slightly loose fit, offering comfort and ease of movement. The fabric appears to be lightweight cotton or a cotton-blend with a soft, matte finish and smooth texture. The waistband is elasticated and includes a tonal drawstring for adjustable fit. The pants have two large front patch pockets and minimal visible stitching, with no embellishments or visible hardware. The hem falls at the ankle with a clean, straight edge. There are no zippers, buttons, or back pockets visible.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -173,7 +173,7 @@
     "id": "18",
     "name": "Pantalón cargo verde",
     "img": "/bd-img/18.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of olive green cargo pants in a utilitarian casual style. These pants feature a mid-rise waist with a straight-leg cut and a slightly loose fit for ease of movement. The fabric appears to be a medium-weight cotton or cotton-blend twill with a smooth, matte finish. The design includes a button and zipper fly closure at the front, belt loops around the waistband, and adjustable drawcords at the hem. Visible functional details include two large flap pockets on the thighs, side seam pockets, and subtle panel stitching on the knees. There are no visible embellishments beyond the practical construction.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -183,7 +183,7 @@
     "id": "19",
     "name": "Pantalón de vestir negro",
     "img": "/bd-img/19.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of formal black dress trousers. These pants are designed in a classic tailored style, featuring a straight-leg cut with a structured silhouette. The fabric appears to be a medium-weight suiting material, likely a wool or polyester blend, with a smooth texture and matte finish. The waistband includes belt loops and a concealed hook-and-zip closure. Visible details include front pleats that add definition to the fit, along with side pockets. The length is standard, designed to reach just above the shoes with a clean hem. There are no visible embellishments or cargo-style elements.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -193,7 +193,7 @@
     "id": "20",
     "name": "Pantalón corto beige",
     "img": "/bd-img/20.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of casual khaki shorts in a minimalist outdoor style. The shorts are light tan in color and made from a lightweight, breathable synthetic fabric with a smooth matte texture, likely a nylon or polyester blend. They feature a straight cut with a mid-thigh length, offering a comfortable and functional fit. The waistband includes belt loops, a single button closure, and a concealed zipper fly. Visible details include two sharply angled front pockets with reinforced stitching. There are no visible logos, embellishments, or additional pocket designs.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -203,7 +203,7 @@
     "id": "21",
     "name": "Campera de cuero negra",
     "img": "/bd-img/21.webp",
-    "prompt": "Dress the original subject in the provided image with a black faux leather jacket in a fitted, modern moto-inspired style. The jacket features a sleek, smooth surface with a slight sheen, likely made from synthetic leather or coated fabric. It has a short, waist-length cut with a tailored fit that contours the torso. The front includes a full-length silver zipper closure, a short stand collar without lapels, and two vertical zippered pockets at the sides. Additional design details include panel stitching along the bust and shoulders, as well as textured sections at the cuffs and waistband that add visual interest and structure. The sleeves are long and slim-fitting. There are no decorative buttons or visible logos.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -213,7 +213,7 @@
     "id": "22",
     "name": "Campera inflable azul",
     "img": "/bd-img/22.webp",
-    "prompt": "Dress the original subject in the provided image with a navy blue puffer jacket in a casual winter style. The jacket is made from a shiny, quilted synthetic material with horizontal stitching, filled with insulating padding for warmth. It features a relaxed, slightly oversized cut that extends to the hips. The jacket includes a full-length front zipper closure, two vertical zippered side pockets, and a fully attached hood with drawstring adjustments. The sleeves are long and finished with elasticated cuffs to retain heat. The hem is straight and unembellished. There are no visible logos, decorative patterns, or external buttons beyond the zippers and drawcords.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -223,7 +223,7 @@
     "id": "23",
     "name": "Campera de jean celeste",
     "img": "/bd-img/23.webp",
-    "prompt": "Dress the original subject in the provided image with a light blue denim jacket in a classic casual style. The jacket is made of medium-weight denim fabric with a slightly faded, worn-in texture. It features a straight, structured cut with a standard fit that ends just above the hips. The garment includes a traditional pointed collar, long sleeves with buttoned cuffs, and a straight hem. On the front, there are two symmetrical chest flap pockets with metal buttons and two vertical seams running down to the hem, enhancing the structured silhouette. The front closure consists of five metallic buttons in a golden tone, including one at the collar and one at the hem. Stitching is prominently visible, reinforcing the classic jean jacket style.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -233,7 +233,7 @@
     "id": "24",
     "name": "Campera deportiva roja",
     "img": "/bd-img/24.webp",
-    "prompt": "Dress the original subject in the provided image with a bright red outdoor softshell jacket designed for cold or rainy weather. The jacket features a lightweight, water-resistant fabric with a smooth matte finish and subtle structure, likely made from polyester or a synthetic blend. It has a straight cut with a slightly relaxed fit and full-length sleeves. The hem falls just below the waist.Key details include a high collar integrated into a fully adjustable hood with black drawstrings and toggles. The front has a full-length zipper closure in red, complemented by three zippered pockets: two vertical side pockets near the hips and one chest pocket on the left side, all with contrasting black zippers. Stitching is reinforced along the seams and shoulder areas, enhancing durability. The overall look is technical, sporty, and functional, suitable for hiking, trekking, or urban use in inclement weather.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -243,7 +243,7 @@
     "id": "25",
     "name": "Campera impermeable verde",
     "img": "/bd-img/25.webp",
-    "prompt": "Dress the original subject in the provided image with an olive green tactical military-style jacket designed for cold and demanding outdoor environments. The jacket is made from a heavy-duty, weather-resistant synthetic fabric with a slightly matte finish and visible durability. It features a voluminous cut with an oversized, loose fit that allows for layered clothing underneath. The length extends just below the hips, providing extra coverage and protection.The garment includes a high collar integrated with a hidden hood compartment and a front closure protected by a wide flap with Velcro, likely concealing a central zipper. The sleeves are full-length with adjustable cuffs and reinforced stitching. There are two slanted chest pockets and two larger pockets near the waist, all covered with flaps for secure storage. Additional Velcro patches are located on the chest and upper arms, commonly used for name tags or insignias.The overall look is rugged, utilitarian, and functional, suitable for tactical, security, or heavy-duty work settings.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -253,7 +253,7 @@
     "id": "26",
     "name": "Remera básica blanca",
     "img": "/bd-img/01.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved raglan T-shirt featuring a solid white body and contrasting black sleeves and ribbed crew neckline. The garment has a simple, sporty style with no visible embellishments, fasteners, or pockets. The fabric appears to be lightweight cotton or a cotton-blend jersey, with a soft matte texture and smooth surface. It has a straight, relaxed cut that falls naturally from the shoulders and offers a comfortable fit. The length is standard, ending slightly below the waist, with clean-finished hems on both the sleeves and bottom edge.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -263,7 +263,7 @@
     "id": "27",
     "name": "Remera rayada azul",
     "img": "/bd-img/02.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved T-shirt featuring a horizontal striped pattern in navy blue and white. The fabric appears to be lightweight cotton with a soft, slightly worn texture and matte finish. The shirt has a relaxed fit with a straight cut, providing comfort and ease of movement. The length is standard, ending at the hips. It includes a round neckline with a short Henley-style button placket consisting of four small brown buttons. A small patch pocket is located on the left chest, partially aligned with the stripe pattern. The sleeve hems and bottom edge are simple and unembellished, with minor natural curling at the edges.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -273,7 +273,7 @@
     "id": "28",
     "name": "Remera deportiva negra",
     "img": "/bd-img/03.webp",
-    "prompt": "Dress the original subject in the provided image with a plain black short-sleeved T-shirt in a modern casual style. The shirt is entirely black with no visible patterns, graphics, or embellishments. The fabric appears to be a lightweight, stretchy cotton or cotton-blend jersey with a soft and smooth texture, offering a slightly matte finish with minimal sheen. It has a fitted cut that gently contours the torso without being too tight, providing a clean and contemporary silhouette. The length is standard, ending just below the waist. The neckline is a classic crew neck with a slightly thicker ribbed band. The sleeve and bottom hems are cleanly stitched, with no visible decorative details, pockets, buttons, or zippers.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -283,7 +283,7 @@
     "id": "29",
     "name": "Remera oversize verde",
     "img": "/bd-img/04.webp",
-    "prompt": "Dress the original subject in the provided image with a casual short-sleeved T-shirt in a solid emerald green color, featuring a large white printed design on the back. The print includes the word 'NATURE' in bold capital letters, followed by smaller text and botanical illustrations of flowers, leaves, and butterflies, arranged in a scientific or educational style. The fabric appears to be medium-weight cotton with a soft, matte finish and smooth surface. The shirt has a straight, relaxed cut with a comfortable loose fit. It has a standard length falling just below the waist. The neckline is a classic crew neck with a narrow ribbed band, and the sleeve and bottom hems are cleanly stitched. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -293,7 +293,7 @@
     "id": "30",
     "name": "Remera estampada roja",
     "img": "/bd-img/05.webp",
-    "prompt": "Dress the original subject in the provided image with a plain red short-sleeved T-shirt in a casual style. The shirt is entirely red with no patterns, prints, or decorative elements. The fabric appears to be lightweight cotton or a cotton-blend jersey with a soft texture and matte finish. It features a straight cut with a regular fit, offering a balance between comfort and structure. The length is standard, falling just below the waist. The neckline is a classic crew neck with a narrow ribbed band, and the hems on the sleeves and bottom are neatly finished. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "1",
       "name": "Remeras"
@@ -303,7 +303,7 @@
     "id": "31",
     "name": "Camisa formal celeste",
     "img": "/bd-img/06.webp",
-    "prompt": "Dress the original subject in the provided image with a light blue long-sleeved dress shirt in a formal business style. The shirt features a pointed collar, a front button placket with small matching blue buttons, and a single patch pocket on the left chest. The fabric appears to be a lightweight cotton or cotton-blend poplin with a smooth, matte texture, slightly crisp and structured. The cut is straight and classic, offering a regular fit that is neither too tight nor oversized. The sleeves are full-length with buttoned cuffs, and the hem is slightly rounded, designed to be tucked in if desired. No additional embellishments, zippers, or decorative elements are visible.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -313,7 +313,7 @@
     "id": "32",
     "name": "Camisa de jean",
     "img": "/bd-img/07.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved button-up denim shirt in a rugged casual style. The shirt is solid dark blue with a slightly textured, matte finish typical of medium-weight denim or denim-like cotton fabric. It features a structured pointed collar, a full-length front button placket with visible matching buttons, and two symmetrical chest flap pockets with button closures. The shirt has a straight, loose fit that allows for comfort and layering. The sleeves include buttoned cuffs, and the bottom hem is slightly curved. There are no decorative prints or additional embellishments.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -323,7 +323,7 @@
     "id": "33",
     "name": "Camisa cuadros roja",
     "img": "/bd-img/08.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved gingham shirt in a casual-smart style, featuring a red and white small checkered pattern evenly distributed across the entire garment. The fabric appears to be lightweight cotton with a soft, breathable texture and a matte finish. The shirt has a fitted cut that contours the torso for a clean, tailored silhouette. It includes a classic pointed collar, a front button placket with small white buttons, and a single chest pocket on the left side that aligns with the checkered pattern. The sleeves are full-length with buttoned cuffs and an optional button tab for rolling them up. The hem is slightly rounded for versatility in styling. No additional embellishments or decorative elements are present.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -333,7 +333,7 @@
     "id": "34",
     "name": "Camisa lino blanca",
     "img": "/bd-img/09.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved white button-up shirt in a relaxed casual style. The shirt is plain white with no patterns or embellishments. The fabric appears to be lightweight cotton or a cotton-blend with a smooth, matte texture and soft drape. It features a pointed collar, a standard front button placket with small white buttons, and a single patch pocket on the left chest. The shirt has a straight, loose fit with a slightly oversized silhouette. The cuffs are buttoned but shown rolled up, and the hem is slightly curved. The shirt is designed to be worn open or closed, making it suitable for layering over a T-shirt or on its own.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -343,7 +343,7 @@
     "id": "35",
     "name": "Camisa manga corta estampada",
     "img": "/bd-img/10.webp",
-    "prompt": "Dress the original subject in the provided image with a short-sleeved Hawaiian shirt in a tropical casual style. The shirt features a dark navy blue base color with a vibrant all-over print of red, white, and pink hibiscus flowers, green palm leaves, and illustrated flamingos. The fabric appears to be lightweight cotton or a cotton-blend, offering a soft, breathable texture with a slightly crisp matte finish. It has a relaxed, straight cut that drapes loosely on the body for comfort and ease of movement. The shirt includes a standard spread collar, a front button placket with white buttons, and a straight hem designed to be worn untucked. There are no visible pockets, zippers, or additional embellishments beyond the print.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "2",
       "name": "Camisas"
@@ -353,7 +353,7 @@
     "id": "36",
     "name": "Vestido largo azul",
     "img": "/bd-img/11.webp",
-    "prompt": "Dress the original subject in the provided image with a strapless evening gown in a deep royal blue color, designed in a formal and elegant style. The bodice is fitted with a sweetheart neckline, subtly decorated with small, tone-on-tone embellishments that add texture and a hint of sparkle. The fabric appears to be taffeta or a similar medium-weight, slightly glossy material with a structured drape. The gown has a form-fitting upper section that flares into a voluminous, gathered skirt with dramatic horizontal ruching and layered folds, creating a cascading effect. The dress is full-length, extending to the floor. There are no visible zippers, sleeves, or additional adornments beyond the texture and sculpted silhouette.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -363,7 +363,7 @@
     "id": "37",
     "name": "Vestido corto negro",
     "img": "/bd-img/12.webp",
-    "prompt": "Dress the original subject in the provided image with a sleeveless black dress in a modern casual style. The dress features a square neckline and wide shoulder straps with scalloped edges. Both the neckline and hem are adorned with symmetrical metallic eyelet grommets, adding a bold decorative detail. The fabric appears to be a medium-weight knit with a matte texture and slight stretch, offering structure while remaining soft and comfortable. The bodice is fitted through the waist, and the skirt flares gently into an A-line silhouette. The length is above the knee, providing a balanced, flattering proportion. There are no visible zippers, buttons, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -373,7 +373,7 @@
     "id": "38",
     "name": "Vestido floreado",
     "img": "/bd-img/13.webp",
-    "prompt": "Dress the original subject in the provided image with a pastel pink sleeveless slip dress in a romantic and elegant style. The dress features a subtle all-over floral print in soft hues of pink, peach, and light yellow. It is made from a lightweight, glossy satin or silk-like fabric with a fluid, smooth texture and gentle sheen. The cut is body-hugging through the torso and hips, flaring slightly below the knees for a mermaid silhouette. It includes thin spaghetti straps, a softly draped cowl neckline, and a distinctive gathered detail with a vertical ruffle accent near the lower hem on one side. The length is mid-calf to ankle. There are no visible buttons, zippers, or pockets.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -383,7 +383,7 @@
     "id": "39",
     "name": "Vestido de fiesta dorado",
     "img": "/bd-img/14.webp",
-    "prompt": "Dress the original subject in the provided image with a long-sleeved full-length evening gown entirely covered in gold sequins. The dress is designed in a high-glamour, formal style with a close-fitting silhouette that gently hugs the body down to the ankles. It features a high neckline, full-length sleeves, and a straight hemline that extends to the floor. The material appears to be a stretch base fabric fully embellished with densely packed reflective gold sequins, giving it a brilliant, shimmering texture under light. The structure is elegant and elongated, without visible buttons, zippers, pockets, or additional decorations.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -393,7 +393,7 @@
     "id": "40",
     "name": "Vestido casual verde",
     "img": "/bd-img/15.webp",
-    "prompt": "Dress the original subject in the provided image with a short-sleeved skater dress in a deep forest green color. The dress is designed in a casual-elegant style with a soft, stretch-knit fabric that appears lightweight and slightly textured with a matte finish. It features a V-neckline with subtle crossover pleating at the bust, providing gentle shaping. The fit is snug at the waist and flares into an A-line skirt, creating a balanced and flattering silhouette. The hemline falls mid-thigh. There are no visible pockets, buttons, zippers, or embellishments, giving the garment a clean, streamlined appearance.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "3",
       "name": "Vestidos"
@@ -403,7 +403,7 @@
     "id": "41",
     "name": "Pantalón de jean azul",
     "img": "/bd-img/16.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of classic dark blue denim jeans in a slim straight-cut style. The jeans are made from medium-weight denim with a slightly rigid texture and a matte finish. The fit is tailored through the hips and thighs, tapering subtly down the legs without being tight. The garment includes a traditional five-pocket construction: two front pockets, one coin pocket, and two back pockets. Visible features include a button closure at the waistband, a front zipper fly, and copper-colored stitching that outlines the seams and pockets. The length is standard, designed to reach the ankles with a clean hem finish.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -413,7 +413,7 @@
     "id": "42",
     "name": "Pantalón jogger gris",
     "img": "/bd-img/17.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of light grey casual drawstring pants. These pants feature a relaxed, straight-leg cut with a slightly loose fit, offering comfort and ease of movement. The fabric appears to be lightweight cotton or a cotton-blend with a soft, matte finish and smooth texture. The waistband is elasticated and includes a tonal drawstring for adjustable fit. The pants have two large front patch pockets and minimal visible stitching, with no embellishments or visible hardware. The hem falls at the ankle with a clean, straight edge. There are no zippers, buttons, or back pockets visible.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -423,7 +423,7 @@
     "id": "43",
     "name": "Pantalón cargo verde",
     "img": "/bd-img/18.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of olive green cargo pants in a utilitarian casual style. These pants feature a mid-rise waist with a straight-leg cut and a slightly loose fit for ease of movement. The fabric appears to be a medium-weight cotton or cotton-blend twill with a smooth, matte finish. The design includes a button and zipper fly closure at the front, belt loops around the waistband, and adjustable drawcords at the hem. Visible functional details include two large flap pockets on the thighs, side seam pockets, and subtle panel stitching on the knees. There are no visible embellishments beyond the practical construction.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -433,7 +433,7 @@
     "id": "44",
     "name": "Pantalón de vestir negro",
     "img": "/bd-img/19.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of formal black dress trousers. These pants are designed in a classic tailored style, featuring a straight-leg cut with a structured silhouette. The fabric appears to be a medium-weight suiting material, likely a wool or polyester blend, with a smooth texture and matte finish. The waistband includes belt loops and a concealed hook-and-zip closure. Visible details include front pleats that add definition to the fit, along with side pockets. The length is standard, designed to reach just above the shoes with a clean hem. There are no visible embellishments or cargo-style elements.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -443,7 +443,7 @@
     "id": "45",
     "name": "Pantalón corto beige",
     "img": "/bd-img/20.webp",
-    "prompt": "Dress the original subject in the provided image with a pair of casual khaki shorts in a minimalist outdoor style. The shorts are light tan in color and made from a lightweight, breathable synthetic fabric with a smooth matte texture, likely a nylon or polyester blend. They feature a straight cut with a mid-thigh length, offering a comfortable and functional fit. The waistband includes belt loops, a single button closure, and a concealed zipper fly. Visible details include two sharply angled front pockets with reinforced stitching. There are no visible logos, embellishments, or additional pocket designs.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "4",
       "name": "Pantalones"
@@ -453,7 +453,7 @@
     "id": "46",
     "name": "Campera de cuero negra",
     "img": "/bd-img/21.webp",
-    "prompt": "Dress the original subject in the provided image with a black faux leather jacket in a fitted, modern moto-inspired style. The jacket features a sleek, smooth surface with a slight sheen, likely made from synthetic leather or coated fabric. It has a short, waist-length cut with a tailored fit that contours the torso. The front includes a full-length silver zipper closure, a short stand collar without lapels, and two vertical zippered pockets at the sides. Additional design details include panel stitching along the bust and shoulders, as well as textured sections at the cuffs and waistband that add visual interest and structure. The sleeves are long and slim-fitting. There are no decorative buttons or visible logos.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -463,7 +463,7 @@
     "id": "47",
     "name": "Campera inflable azul",
     "img": "/bd-img/22.webp",
-    "prompt": "Dress the original subject in the provided image with a navy blue puffer jacket in a casual winter style. The jacket is made from a shiny, quilted synthetic material with horizontal stitching, filled with insulating padding for warmth. It features a relaxed, slightly oversized cut that extends to the hips. The jacket includes a full-length front zipper closure, two vertical zippered side pockets, and a fully attached hood with drawstring adjustments. The sleeves are long and finished with elasticated cuffs to retain heat. The hem is straight and unembellished. There are no visible logos, decorative patterns, or external buttons beyond the zippers and drawcords.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -473,7 +473,7 @@
     "id": "48",
     "name": "Campera de jean celeste",
     "img": "/bd-img/23.webp",
-    "prompt": "Dress the original subject in the provided image with a light blue denim jacket in a classic casual style. The jacket is made of medium-weight denim fabric with a slightly faded, worn-in texture. It features a straight, structured cut with a standard fit that ends just above the hips. The garment includes a traditional pointed collar, long sleeves with buttoned cuffs, and a straight hem. On the front, there are two symmetrical chest flap pockets with metal buttons and two vertical seams running down to the hem, enhancing the structured silhouette. The front closure consists of five metallic buttons in a golden tone, including one at the collar and one at the hem. Stitching is prominently visible, reinforcing the classic jean jacket style.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -483,7 +483,7 @@
     "id": "49",
     "name": "Campera deportiva roja",
     "img": "/bd-img/24.webp",
-    "prompt": "Dress the original subject in the provided image with a bright red outdoor softshell jacket designed for cold or rainy weather. The jacket features a lightweight, water-resistant fabric with a smooth matte finish and subtle structure, likely made from polyester or a synthetic blend. It has a straight cut with a slightly relaxed fit and full-length sleeves. The hem falls just below the waist.Key details include a high collar integrated into a fully adjustable hood with black drawstrings and toggles. The front has a full-length zipper closure in red, complemented by three zippered pockets: two vertical side pockets near the hips and one chest pocket on the left side, all with contrasting black zippers. Stitching is reinforced along the seams and shoulder areas, enhancing durability. The overall look is technical, sporty, and functional, suitable for hiking, trekking, or urban use in inclement weather.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
@@ -493,7 +493,7 @@
     "id": "50",
     "name": "Campera impermeable verde",
     "img": "/bd-img/25.webp",
-    "prompt": "Dress the original subject in the provided image with an olive green tactical military-style jacket designed for cold and demanding outdoor environments. The jacket is made from a heavy-duty, weather-resistant synthetic fabric with a slightly matte finish and visible durability. It features a voluminous cut with an oversized, loose fit that allows for layered clothing underneath. The length extends just below the hips, providing extra coverage and protection.The garment includes a high collar integrated with a hidden hood compartment and a front closure protected by a wide flap with Velcro, likely concealing a central zipper. The sleeves are full-length with adjustable cuffs and reinforced stitching. There are two slanted chest pockets and two larger pockets near the waist, all covered with flaps for secure storage. Additional Velcro patches are located on the chest and upper arms, commonly used for name tags or insignias.The overall look is rugged, utilitarian, and functional, suitable for tactical, security, or heavy-duty work settings.The clothing must be digitally overlaid onto the existing model's body with realistic draping and fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain completely unchanged. This is a garment simulation, not a model replacement. Do not modify any physical or visual characteristics of the person in the image.",
+    "prompt": "",
     "category": {
       "id": "5",
       "name": "Camperas"
