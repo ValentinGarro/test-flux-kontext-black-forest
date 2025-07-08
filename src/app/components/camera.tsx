@@ -1,6 +1,5 @@
 "use client"
-import React, { useRef, useEffect, useState } from "react";
-import { showToast } from "./SonnerSimple";
+import React, { useEffect  } from "react"; 
 
 export default function Camera({
     videoRef,

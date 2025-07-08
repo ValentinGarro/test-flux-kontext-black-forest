@@ -1,8 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
-import { useForm } from "react-hook-form";
-import { createImgSchema } from "../schemas/createImg";
-import { zodResolver } from "@hookform/resolvers/zod"; 
+import { useEffect, useRef, useState } from "react"; 
 import axios from "axios"; 
 import Camera from "./camera";
 import { showToast, SonnerSimple } from "./SonnerSimple";
@@ -13,22 +10,11 @@ import Modal from "./modal";
 import Carucel from "./carucel";
 import { clothe } from "../types/clothe"; 
 import { base64ToBlob } from "../helpers/fun";
+import { CreateImg } from "../types/createImg";
 
 export default function Home() {
     const [imgResult, setImgResult] = useState<string | null>(null);
-    const form = useForm({
-        resolver: zodResolver(createImgSchema),
-        defaultValues: {
-            model: null,
-            clothe: {
-                id: "0",
-                name: "",
-                img: "",
-                prompt: "",
-            },
-        },
-    });
-    const {setValue } = form;  
+    const [data, setData] = useState<CreateImg>({model:null,clothe:null}); 
     /*Loader */
     const [loader, setLoader] = useState<boolean>(false);
 
@@ -78,7 +64,7 @@ export default function Home() {
     }
     /*Funciones principales por step */
     const funPStep0 = higthFun(() => {  
-        if(form.getValues("model")){ //si existe la foto , la funcion es limpiar el modal
+        if(data.model){ //si existe la foto , la funcion es limpiar el modal
             setShowModal(false); 
             setImgModal(null);
             setStep(1); 
@@ -93,7 +79,7 @@ export default function Home() {
                 if (ctx) {
                     ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
                     const image = canvas.toDataURL("image/png");
-                    setValue("model",image,{shouldValidate:true}); 
+                    setData({...data, model:image }); 
                     showToast("Foto tomada");  
                     setFunctionRevers(() => funRStep0);
                 }
@@ -101,8 +87,7 @@ export default function Home() {
 
         } 
     }); 
-    const funPStep1 = async (idx:number) => { 
-        console.log("funPStep1 called with idx:", idx);
+    const funPStep1 = async (idx:number) => {  
         setLoader(true);
         setShowModal(false); 
         setImgModal(null); 
@@ -119,8 +104,7 @@ export default function Home() {
     };
     const funPStep2 =  async () => {   
         setLoader(true);
-        setShowModal(false);
-        const data = form.getValues(); 
+        setShowModal(false); 
         try	{ 
             const formData = new FormData();
             const base64 = data.model;
@@ -146,24 +130,24 @@ export default function Home() {
     };
     /*Funciones revers por step */
     const funRStep0 = higthFun(() =>{
-        setShowModal(false);
-        setValue("model", null, { shouldValidate: true });
+        setShowModal(false); 
+        setData({...data,model:null})
         setFunctionRevers(null);
     }); 
     const funRStep1 = higthFun(() =>{
         setShowModal(true);
-        setImgModal(form.getValues("model") as string);
+        setImgModal(data.model as string);
         setStep(0);
         setCcActive(0);
     });
     const funRStep2 = higthFun(() => { 
-        if(form.getValues("clothe")){
+        if(data.clothe){
             setShowModal(false); 
             setTimeout(()=>{
                 setTitleModal(null); 
-                setImgModal(form.getValues("model") as string); 
+                setImgModal(data.model as string); 
             },600)
-            setValue("clothe", null, { shouldValidate: true });
+            setData({...data,clothe:null});
         }else{
             
             setProducts(null);
@@ -174,15 +158,15 @@ export default function Home() {
     const funRStep3 = higthFun(() => { 
         setStep(2);
         setImgResult(null);
-        setImgModal(form.getValues("clothe").img);
-        setTitleModal(form.getValues("clothe").name);
+        setImgModal(data.clothe.img);
+        setTitleModal(data.clothe.name);
         setShowModal(true);
     });
     useEffect(()=>{  
         switch(step){
             case 0:
                 setFunctionPrincipal(() => funPStep0);
-                if(form.getValues("model")) setFunctionRevers(() => funRStep0);
+                if(data.model) setFunctionRevers(() => funRStep0);
                 setFunctionNext(null);
                 setFunctionPrev(null);
                 break;
@@ -194,8 +178,8 @@ export default function Home() {
                 setFunctionPrev(() => () => setCcActive(prev => (prev - 1 + categories.length) % categories.length));
                 break; 
             case 2:  
-                if(!form.getValues("clothe") || form.getValues("clothe").id === "0"){   
-                    setFunctionPrincipal(()=> ()=> setValue("clothe",products[cpActive],{shouldValidate:true}))
+                if(!data.clothe){   
+                    setFunctionPrincipal(()=> ()=> setData({...data,clothe:products[cpActive]}))
                 }else{
                     setFunctionPrincipal(() => funPStep2  );  
                 } 
@@ -211,7 +195,7 @@ export default function Home() {
                 break; 
             
         }
-    },[step, categorySelect,ccActive,cpActive,form.watch("clothe")])
+    },[step, categorySelect,ccActive,cpActive,data])
     
     /*Render dependiendo del paso */
     const render = () => {
@@ -240,19 +224,17 @@ export default function Home() {
     const [showModal, setShowModal] = useState<boolean>(false); 
     const [imgModal, setImgModal] = useState<string | null>(null);
     const [titleModal, setTitleModal] = useState<string | null>(null);
-    useEffect(()=>{  
-        const modelValue = form.watch("model");
-        const clotheValue = form.watch("clothe");
+    useEffect(()=>{   
     
-        if (step === 0 &&typeof modelValue === "string" && modelValue.startsWith("data:image")) {
-            setImgModal(modelValue); 
+        if (step === 0 &&typeof data.model === "string" && data.model.startsWith("data:image")) {
+            setImgModal(data.model); 
             setShowModal(true); 
-        } else if (step === 2 &&clotheValue && clotheValue.img) { 
+        } else if (step === 2 &&data.clothe && data.clothe.img) { 
             setShowModal(true);
-            setImgModal(clotheValue.img);
-            setTitleModal(clotheValue.name); 
+            setImgModal(data.clothe.img);
+            setTitleModal(data.clothe.name); 
         } 
-    }, [form.watch("model"), form.watch("clothe")]);
+    }, [data]);
     /*Cuando se abra el modal los botones del carrucel son null */
     useEffect(() => {
         if (showModal) {

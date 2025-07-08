@@ -7,14 +7,12 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@hookform/resolvers": "^5.1.1",
     "@tailwindcss/postcss": "^4.1.11",
     "axios": "^1.10.0",
     "formidable": "^3.5.4",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "^7.58.1",
     "sonner": "^2.0.5",
     "zod": "^3.25.67"
   },
