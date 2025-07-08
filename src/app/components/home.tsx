@@ -53,8 +53,7 @@ export default function Home() {
     const [cpActive, setCpActive] = useState<number>(0);
     const [categories, setCategories] = useState<Category[]>([]);
     const [categorySelect, setCategorySelect] = useState<Category | null>(null);
-    const [products, setProducts] = useState<clothe[]>([]);
-    const [productSelect, setProductSelect] = useState<clothe | null>(null);
+    const [products, setProducts] = useState<clothe[]>([]); 
     useEffect(() => {
         const fetchCategories = async () => {
             const response = await axios.get("/api/categories"); 
@@ -140,7 +139,7 @@ export default function Home() {
         }catch(err){  
             setNotification(err.response.data.error as string); 
         }finally{
-            setTimeout(()=>setLoader(false),1000)
+            setTimeout(()=>setLoader(false),2500)
         }
         
     };
