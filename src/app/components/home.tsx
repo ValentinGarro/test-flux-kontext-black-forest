@@ -184,11 +184,14 @@ export default function Home() {
                             alt="img"
                             width={2000}
                             height={2000}
-                            className="w-full h-full rounded-2xl"
+                            className="w-full h-full object-contain rounded-2xl"
                             />
                             <Loader show={isResultLoading} fullscreen={false}/>
                         </div>
                     </div>
+                    
+                </div>
+                <div className="w-full flex">
                     <div className="w-[50%] h-full flex items-center justify-center">
                         <div className="bg-amber-400 flex flex-col items-center justify-start p-1 rounded-2xl w-[30vw] py-3 h-[50vw]"> 
                             {"img" in (targetProduct || {}) ? (
@@ -198,7 +201,7 @@ export default function Home() {
                                     alt={targetProduct.name}
                                     width={1000}
                                     height={1000}
-                                    className="object-cover w-[30vw] h-[35vw] rounded-2xl mb-2"
+                                    className="object-contain w-[30vw] h-[35vw] rounded-2xl mb-2"
                                 />
                                 <span className="w-full block text-center text-2xl font-bold text-gray-900">{targetProduct?.name}</span>
                                 </>
@@ -207,14 +210,14 @@ export default function Home() {
                             )}
                         </div>
                     </div>
+                    <Carucel
+                        title={isStepCategory
+                            ? "Categorias"
+                            : (targetProduct as clothe).category?.name || "Prendas"}
+                        products={targetProducts}
+                        active={isStepCategory ? ccActive : cpActive}
+                    />
                 </div>
-                <Carucel
-                    title={isStepCategory
-                        ? "Categorias"
-                        : (targetProduct as clothe).category?.name || "Prendas"}
-                    products={targetProducts}
-                    active={isStepCategory ? ccActive : cpActive}
-                />
             </section>
             );
         }

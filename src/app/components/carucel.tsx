@@ -13,11 +13,9 @@ export default function Carucel ({
     setProps(products);
   }, [products]);
 
-  const pageSize = 9;
+  const pageSize = 6;
   const currentPage = Math.floor((active ?? 0) / pageSize);
-  const start = currentPage * pageSize;
-  const end = start + pageSize;
-  const pageItems = props.slice(start, end);
+  const start = currentPage * pageSize; 
   const activeInPage = (active ?? 0) - start;
 
   // Estado para animar transición
@@ -36,15 +34,15 @@ export default function Carucel ({
   }, [currentPage, page]);
 
   return (
-    <section className=" w-full bg-gray-500 flex flex-col items-center justify-center rounded-2xl p-5">
-      <h1 className="text-center text-7xl text-gray-800 font-bold mb-10">{title}</h1>
+    <section className=" w-full  flex flex-col items-center justify-center rounded-2xl p-5">
+      <h1 className="text-center text-7xl text-gray-800 font-bold mb-8">{title}</h1>
       <div
         className={`
-          grid grid-cols-3 grid-rows-3 gap-6 mx-auto
+          grid grid-cols-3 min-grid-rows-2 gap-4 mx-auto -gap-y-5
           transition-all duration-300
           ${fade ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}
         `}
-        style={{ minHeight: "22rem" }} // para evitar salto de layout
+        style={{ minHeight: "10rem" }} // para evitar salto de layout
       >
         {props.slice(page * pageSize, (page + 1) * pageSize).map((c, idx) => (
           <div
