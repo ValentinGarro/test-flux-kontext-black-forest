@@ -102,6 +102,7 @@ export default function Home() {
         } 
     }); 
     const funPStep1 = async (idx:number) => { 
+        console.log("funPStep1 called with idx:", idx);
         setLoader(true);
         setShowModal(false); 
         setImgModal(null); 
