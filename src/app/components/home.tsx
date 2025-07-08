@@ -107,7 +107,7 @@ export default function Home() {
         setShowModal(false); 
         try	{ 
             const formData = new FormData();
-            const base64 = data.model;
+            const base64 = data.model as string;
             const blob = base64ToBlob(base64);
             formData.append("imagen", blob, "foto.png");
             formData.append("prompt", data.clothe.prompt);

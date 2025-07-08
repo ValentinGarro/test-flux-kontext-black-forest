@@ -1,4 +1,4 @@
-export function base64ToBlob(base64, mime = '') {
+export function base64ToBlob(base64:string, mime = '') {
     const byteString = atob(base64.split(',')[1]);
     const ab = new ArrayBuffer(byteString.length);
     const ia = new Uint8Array(ab);
