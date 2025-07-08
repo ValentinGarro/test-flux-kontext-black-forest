@@ -11,8 +11,7 @@ import Loader from "./loader";
 import { Category } from "../types/category";
 import Modal from "./modal";
 import Carucel from "./carucel";
-import { clothe } from "../types/clothe";
-import Image from "next/image";
+import { clothe } from "../types/clothe"; 
 import { base64ToBlob } from "../helpers/fun";
 
 export default function Home() {
@@ -227,7 +226,7 @@ export default function Home() {
                 return <Carucel  title="Prendas" active={cpActive} products={products} />
             case 3:
                 return <div className="m-auto w-[100vw] h-full flex items-center justify-center "> 
-                        <Image 
+                        <img 
                             src={imgResult}
                             alt="img result"
                             width={2000}
