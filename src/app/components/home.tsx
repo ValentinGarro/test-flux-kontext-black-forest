@@ -11,9 +11,12 @@ import Carucel from "./carucel";
 import { clothe } from "../types/clothe"; 
 import { base64ToBlob } from "../helpers/fun";
 import { CreateImg } from "../types/createImg";
+import Image from "next/image";
+import higthFun from "../helpers/hightFun";
 
 export default function Home() {
     const [imgResult, setImgResult] = useState<string | null>(null);
+    const [isResultLoading, setIsResultLoading] = useState<boolean>(false);
     const [data, setData] = useState<CreateImg>({model:null,clothe:null}); 
     /*Loader */
     const [loader, setLoader] = useState<boolean>(false);
@@ -52,21 +55,10 @@ export default function Home() {
     const [functionRevers, setFunctionRevers] = useState<()=>void | null>(null);
     const [functionNext, setFunctionNext] = useState<()=>void | null>(null);
     const [functionPrev, setFunctionPrev] = useState<()=>void | null>(null);
-    /*Funcion de orden sperior*/
-    const higthFun = (fun:()=>void) => {
-        return ()=>{
-            setLoader(true);
-            fun();
-            setTimeout(()=>{
-                setLoader(false)
-            },1000)
-        }
-    }
+    /*Funcion de orden sperior*/ 
     /*Funciones principales por step */
-    const funPStep0 = higthFun(() => {  
-        if(data.model){ //si existe la foto , la funcion es limpiar el modal
-            setShowModal(false); 
-            setImgModal(null);
+    const funPStep0 =() => {  
+        if(data.model){ //si existe la foto , la funcion es limpiar el modal 
             setStep(1); 
         }else{ //si no existe la foto , la funcion es tomar la foto 
             
@@ -86,81 +78,62 @@ export default function Home() {
             }
 
         } 
-    }); 
+    };  
     const funPStep1 = async (idx:number) => {  
-        setLoader(true);
-        setShowModal(false); 
-        setImgModal(null); 
+        setLoader(true); 
         const selectedCategory = categories[idx]; 
         setCategorySelect(selectedCategory);
-    
-        // Hacé el fetch directamente con el id de la categoría seleccionada
+ 
+        setData({...data, clothe: null});
+ 
         const response = await axios.get(`/api/products/${selectedCategory.id}`);
         setProducts(response.data);
-    
+
         setLoader(false);
         setCpActive(0);
-        setStep(2);  
+        setStep(2); 
     };
-    const funPStep2 =  async () => {   
-        setLoader(true);
-        setShowModal(false); 
-        try	{ 
+    const funPStep2 = async (clotheToUse: clothe) => {    
+        setIsResultLoading(true); 
+        try { 
             const formData = new FormData();
             const base64 = data.model as string;
             const blob = base64ToBlob(base64);
             formData.append("imagen", blob, "foto.png");
-            formData.append("prompt", data.clothe.prompt);
-
+            formData.append("prompt", clotheToUse.prompt);
+    
             const response = await axios.post("/api/espejo-magico", formData, {
-            headers: {
-                "Content-Type": "multipart/form-data"
-            }
+                headers: { "Content-Type": "multipart/form-data" }
             }); 
             const { imagen_generada } = response.data;
-            setImgResult(imagen_generada);  
-            setStep(3);
-            
-        }catch(err){  
-            setNotification(err.response.data.error as string); 
-        }finally{
-            setTimeout(()=>setLoader(false),2500)
+            setImgResult(imagen_generada);   
+        } catch(err) {  
+            console.log(err);
+            setNotification(err.response?.data?.error as string); 
+        } finally {
+            setTimeout(()=>{
+                setIsResultLoading(false);
+
+            },2500)
         }
-        
-    };
+    } ;
     /*Funciones revers por step */
-    const funRStep0 = higthFun(() =>{
-        setShowModal(false); 
+    const funRStep0 = higthFun(setLoader,() =>{ 
         setData({...data,model:null})
         setFunctionRevers(null);
     }); 
-    const funRStep1 = higthFun(() =>{
-        setShowModal(true);
-        setImgModal(data.model as string);
+    const funRStep1 = higthFun(setLoader,() =>{ 
         setStep(0);
         setCcActive(0);
     });
-    const funRStep2 = higthFun(() => { 
-        if(data.clothe){
-            setShowModal(false); 
-            setTimeout(()=>{
-                setTitleModal(null); 
-                setImgModal(data.model as string); 
-            },600)
+    const funRStep2 = higthFun(setLoader,() => { 
+        if(data.clothe){  
             setData({...data,clothe:null});
         }else{
-            
             setProducts(null);
             setStep(1);
             setCpActive(0);
         }
-    });
-    const funRStep3 = higthFun(() => { 
-        setStep(2);
-        setImgResult(null);
-        setImgModal(data.clothe.img);
-        setTitleModal(data.clothe.name);
-        setShowModal(true);
     });
     useEffect(()=>{  
         switch(step){
@@ -177,67 +150,79 @@ export default function Home() {
                 setFunctionNext(() => () => setCcActive(prev => (prev + 1) % categories.length));
                 setFunctionPrev(() => () => setCcActive(prev => (prev - 1 + categories.length) % categories.length));
                 break; 
-            case 2:  
-                if(!data.clothe){   
-                    setFunctionPrincipal(()=> ()=> setData({...data,clothe:products[cpActive]}))
-                }else{
-                    setFunctionPrincipal(() => funPStep2  );  
-                } 
+            case 2:
+                setFunctionPrincipal(() => () => {
+                    const clothe = products[cpActive];
+                    setData(prev => ({ ...prev, clothe }));
+                    funPStep2(clothe);
+                });
                 setFunctionNext(() => () => setCpActive(prev => (prev + 1) % products.length));
                 setFunctionPrev(() => () => setCpActive(prev => (prev - 1 + products.length) % products.length));
-                setFunctionRevers(() => funRStep2);   
-                break; 
-            case 3:
-                setFunctionNext(null);
-                setFunctionPrev(null);
-                setFunctionPrincipal(() => null);  
-                setFunctionRevers(() => funRStep3);  
-                break; 
+                setFunctionRevers(() => funRStep2);
+                break;
             
         }
     },[step, categorySelect,ccActive,cpActive,data])
-    
-    /*Render dependiendo del paso */
+    // Render y lógica de activos centralizados
     const render = () => {
-        switch(step){
-            case 0:
-                return(
-                   <Camera videoRef={videoRef} canvasRef={canvasRef}/> 
-                )
-            case 1:
-                return <Carucel  title="Categorias" active={ccActive} products={categories} />
-            case 2 :
-                return <Carucel  title="Prendas" active={cpActive} products={products} />
-            case 3:
-                return <div className="m-auto w-[100vw] h-full flex items-center justify-center "> 
-                        <img 
-                            src={imgResult}
-                            alt="img result"
+        // Paso 0: Cámara y modal
+        if (step === 0) {
+            return <Camera videoRef={videoRef} canvasRef={canvasRef} />;
+        }else{
+            const isStepCategory = step === 1;
+
+            const targetProducts = isStepCategory ? categories : products;
+            const targetProduct = isStepCategory ? categories[ccActive] : products[cpActive];
+
+            return (
+            <section className="w-full h-full flex flex-col items-center justify-center gap-5 pt-10 pb-30 p-5">
+                <div className="flex items-center justify-center w-full h-full gap-3">
+                    <div className="relative w-full h-full rounded-2xl">
+                        <div className="w-full h-full relative">
+                            <img
+                            src={imgResult || (data.model as string)}
+                            alt="img"
                             width={2000}
                             height={2000}
-                            className="w-full h-full object-fill"
-                        />
+                            className="w-full h-full rounded-2xl"
+                            />
+                            <Loader show={isResultLoading} fullscreen={false}/>
+                        </div>
+                    </div>
+                    <div className="w-[50%] h-full flex items-center justify-center">
+                        <div className="bg-amber-400 flex flex-col items-center justify-start p-1 rounded-2xl w-[30vw] py-3 h-[50vw]"> 
+                            {"img" in (targetProduct || {}) ? (
+                                <>
+                                <Image
+                                    src={(targetProduct as clothe).img}
+                                    alt={targetProduct.name}
+                                    width={1000}
+                                    height={1000}
+                                    className="object-cover w-[30vw] h-[35vw] rounded-2xl mb-2"
+                                />
+                                <span className="w-full block text-center text-2xl font-bold text-gray-900">{targetProduct?.name}</span>
+                                </>
+                            ) : (
+                                <span className="text-3xl font-bold text-gray-900">{targetProduct?.name}</span>
+                            )}
+                        </div>
+                    </div>
                 </div>
+                <Carucel
+                    title={isStepCategory
+                        ? "Categorias"
+                        : (targetProduct as clothe).category?.name || "Prendas"}
+                    products={targetProducts}
+                    active={isStepCategory ? ccActive : cpActive}
+                />
+            </section>
+            );
         }
-    } 
-    /*Modal */
-    const [showModal, setShowModal] = useState<boolean>(false); 
-    const [imgModal, setImgModal] = useState<string | null>(null);
-    const [titleModal, setTitleModal] = useState<string | null>(null);
-    useEffect(()=>{   
-    
-        if (step === 0 &&typeof data.model === "string" && data.model.startsWith("data:image")) {
-            setImgModal(data.model); 
-            setShowModal(true); 
-        } else if (step === 2 &&data.clothe && data.clothe.img) { 
-            setShowModal(true);
-            setImgModal(data.clothe.img);
-            setTitleModal(data.clothe.name); 
-        } 
-    }, [data]);
+ 
+    }   
     /*Cuando se abra el modal los botones del carrucel son null */
     useEffect(() => {
-        if (showModal) {
+        if (data.model && step === 0) {
           setFunctionNext(null);
           setFunctionPrev(null);
         } else {
@@ -256,14 +241,15 @@ export default function Home() {
               setFunctionPrev(null);
           }
         }
-      }, [showModal, step, categories, products]);
+      },[data, step, categories, products]);
+     
     return (
         <main className="h-[100vh] w-full overflow-hidden relative bg-amber-50">
             <SonnerSimple /> 
             <Loader show={loader}/> 
             { render()}
-            <SectionButtons principal={functionPrincipal} revers={functionRevers} next={functionNext} prev={functionPrev}/>   
-            <Modal show={showModal} img={imgModal} title={titleModal} />    
+            <SectionButtons color={step === 0 ? "white" : "gray-900"} principal={functionPrincipal} revers={functionRevers} next={functionNext} prev={functionPrev}/>   
+            <Modal show={ data.model && step === 0 } img={data.model as string} />    
              
         </main>
     );

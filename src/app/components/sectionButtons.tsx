@@ -3,13 +3,15 @@ export default function SectionButtons(
         principal,
         revers,
         next,
-        prev
+        prev,
+        color
     }: 
     {
         principal: ()=>void,
         revers: ()=>void | null,
         next: ()=>void,
-        prev: ()=>void
+        prev: ()=>void,
+        color?: string
     }
 ) {  
     return (
@@ -18,7 +20,7 @@ export default function SectionButtons(
                 {prev && 
                     <button 
                         onClick={()=>{prev(); }}
-                        className="absolute top-1/2 left-1/4 transform  -translate-y-1/2 text-7xl text-white  font-bold cursor-pointer hover:opacity-80">
+                        className={`absolute top-1/2 left-1/4 transform  -translate-y-1/2 text-7xl text-${color}  font-bold cursor-pointer hover:opacity-80`}>
                             {`<`}
                     </button>
                 }
@@ -26,15 +28,15 @@ export default function SectionButtons(
                     principal && 
                         <button 
                             onClick={()=>{principal(); }} 
-                            className="absolute -top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 h-24 w-24 border-4 border-white group  hover:border-white/80 p-1 hover:p-2 transition flex items-center justify-center rounded-full cursor-pointer"
+                            className={`absolute -top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 h-24 w-24 border-4 border-${color} group  hover:border-${color}/80 p-1 hover:p-2 transition flex items-center justify-center rounded-full cursor-pointer`}
                             >
-                            <span className="block w-full h-full bg-white rounded-full group-hover:bg-white/80 transition"></span>
+                            <span className={`block w-full h-full bg-${color} rounded-full group-hover:bg-${color}/80 transition`}></span>
                         </button>
                 }
                 {next && 
                     <button 
                         onClick={()=>{next(); }}
-                        className="absolute top-1/2 right-1/4 transform  -translate-y-1/2 text-7xl text-white  font-bold cursor-pointer hover:opacity-80">
+                        className={`absolute top-1/2 right-1/4 transform  -translate-y-1/2 text-7xl text-${color}  font-bold cursor-pointer hover:opacity-80`}>
                             {`>`}
                     </button>
                 }
