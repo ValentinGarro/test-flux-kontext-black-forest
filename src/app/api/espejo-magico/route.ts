@@ -31,6 +31,7 @@ export async function POST(req: Request) {
       const prompt = Array.isArray(fields.prompt) ? fields.prompt[0] : fields.prompt as string;
       const file = Array.isArray(files.imagen) ? files.imagen[0] : files.imagen as FormidableFile;
       const imagePath = file?.filepath; 
+      console.log("aca",prompt, imagePath);
       if (!prompt || !imagePath) {
         resolve(new Response(JSON.stringify({ error: 'Faltan datos en la petición' }), { status: 400 }));
         return;

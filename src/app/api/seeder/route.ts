@@ -6,7 +6,10 @@ import { z } from "zod";
 import { clothesSchema } from "../../schemas/clothes";
 
 // Schema para el array de productos
-const clothesArraySchema = z.array(clothesSchema);
+const partialClothesSchema = clothesSchema
+  .partial()
+  .extend({ category: z.string() });
+const clothesArraySchema = z.array(partialClothesSchema);
 
 const PRODUCTS_PATH = path.join(process.cwd(), "src/app/api/products.json");
 const WEBHOOK_URL = process.env.NEXT_PUBLIC_PROMPT_WEBHOOK!; 
@@ -55,7 +58,7 @@ export async function GET(request: Request) {
             const prompt = res.data.prompt;
             if (prompt && typeof prompt === 'string' && prompt.trim().length > 0) {
               // Actualizar el producto en el array
-              updatedProducts[i] = clothesSchema.parse({
+              updatedProducts[i] = partialClothesSchema.parse({
                 ...product,
                 prompt: prompt.trim()
               });

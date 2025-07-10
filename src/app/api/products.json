@@ -3,500 +3,350 @@
     "id": "1",
     "name": "Remera básica blanca",
     "img": "/bd-img/01.webp",
-    "prompt": "Create a vertical 9:16 image showing a full-figure man from head to mid-thigh, standing against a neutral background. Overlay a digitally rendered casual t-shirt with raglan sleeves onto the subject's body, ensuring natural draping and realistic fabric behavior. The t-shirt has a white torso and black sleeves, made of lightweight, smooth cotton, with a regular, slightly loose fit that reaches the waist. It features a black collar, with no prints or logos, and no visible functional elements. Preserve the subject’s original face, body shape, pose, skin tone, and the neutral background. Adjust framing to show the full figure from head to mid-thigh, maintaining the original composition and ensuring the t-shirt fits naturally on the body.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual short-sleeve T-shirt featuring a classic baseball style. The main body of the shirt is solid white, while the raglan sleeves and collar are black, creating a strong two-tone contrast. The shirt is made from lightweight cotton fabric, giving it a smooth and soft texture with a matte finish. The fit is regular, neither too tight nor too loose, and the shirt length falls just at the waist. The neckline is a standard round crew neck accented by the black collar band. The sleeves are short and relaxed, ending above the elbow, with no visible logos, buttons, zippers, pockets, or additional adornments. Dress the original subject in this T-shirt. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
     "id": "2",
     "name": "Remera rayada azul",
     "img": "/bd-img/02.webp",
-    "prompt": "Dress the subject in the image with a casual t-shirt featuring raglan sleeves. The torso of the shirt should be white, while the sleeves and collar are black. The fabric is lightweight cotton with a smooth texture, showing realistic draping and a slightly loose, regular fit that extends to the waist. The shirt should have no prints or logos and display no visible functional elements. Digitally overlay this t-shirt onto the existing body, ensuring the garment fits naturally and realistically without altering the subject’s original face, body shape, skin tone, pose, or the neutral background. Maintain the overall framing and composition but adjust the image to a vertical 9:16 aspect ratio, showing the subject from head to mid-thigh while preserving a seamless and consistent appearance.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual short-sleeve T-shirt featuring horizontal white and navy blue stripes. The shirt is made from lightweight cotton with a soft, slightly textured finish. It has a loose, relaxed cut that falls at the waist, and the fit is not tight or tailored. The neckline is a round crew neck with a partial button placket, featuring four small brown buttons. There is a small patch pocket on the left chest, seamlessly blending with the striped pattern, and the sleeve hems and bottom hem are simple and unadorned. The fabric drapes naturally and shows subtle folds. The clothing must be digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
     "id": "3",
     "name": "Remera deportiva negra",
     "img": "/bd-img/03.webp",
-    "prompt": "Full-body garment simulation of a man wearing a casual t-shirt with the following features: the torso of the t-shirt is pure white, while the raglan sleeves and collar are solid black. The material appears to be lightweight cotton with a smooth, matte finish, realistically draping over the body in a regular, slightly loose fit that reaches the waist. The t-shirt has no visible prints, logos, or functional elements; just clean, simple lines. Overly the t-shirt naturally onto the existing male model, preserving the original pose, body shape, skin tone, and neutral background. Ensure natural fabric folds and realistic lighting interactions. The final image is vertical with a 9:16 aspect ratio, showing the subject from head to mid-thigh, centered in the frame, maintaining the original background and overall composition.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeved T-shirt in solid black. The T-shirt is made from lightweight, smooth cotton fabric with a matte finish, offering a subtle sheen under light. It features a classic crew neckline with a standard ribbed collar, fitted sleeves that reach the mid-upper arm, and a straight hem that settles just at the hips. The fit is regular—not too tight or too loose—closely following the body's contours without clinging. There are no visible logos, patterns, embellishments, pockets, buttons, zippers, or other functional elements; the design is minimalist and seamless. The garment should display realistic draping and natural fabric folds consistent with a soft cotton material. Dress the original subject in the provided image with this clothing. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
     "id": "4",
     "name": "Remera oversize verde",
     "img": "/bd-img/04.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the person in the provided image. The t-shirt should feature a white torso and black sleeves, made of lightweight cotton with a smooth texture. Ensure the fit is regular and slightly loose, with the length reaching the waist. Add a black collar, and make sure there are no prints or logos on the shirt. There should be no visible functional elements. The garment must drape naturally and realistically on the subject’s body, preserving the original face, body shape, pose, skin tone, and neutral background. Present the final garment simulation in a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh. Maintain the original framing and composition, cropping or adjusting as needed to fit 9:16 without cutting the subject. The background should remain neutral and consistent. Output only the final image.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "",
+    "category": "1"
   },
   {
     "id": "5",
     "name": "Remera estampada roja",
     "img": "/bd-img/05.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the existing subject in the provided image. The t-shirt should feature a white torso and black sleeves, crafted from lightweight, smooth cotton material. Ensure the fit is regular and slightly loose, with the shirt reaching the waist. The collar should be black, and there should be no visible prints or logos. No functional details should be added. The t-shirt fabric should naturally drape and realistically contour to the subject's original body shape and pose. Preserve the subject’s original face, body shape, skin tone, pose, and the neutral background entirely unchanged. Present the composition in a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh, cropping as needed while maintaining a consistent, neutral background. This is a garment simulation only; do not replace or alter the subject beyond the digitally overlaid t-shirt. Output only the final image.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, classic crew-neck T-shirt. The T-shirt is solid bright red with no secondary colors, made from lightweight cotton fabric with a smooth, even texture and a matte finish. The cut is straight and regular fit, with standard length reaching just below the waist. It features short sleeves, a round neckline with a ribbed collar, and a simple, clean hem at the sleeves and bottom. No visible adornments, prints, buttons, pockets, zippers, or decorative details are present. The visual impression is minimalist and unembellished. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
     "id": "6",
     "name": "Camisa formal celeste",
     "img": "/bd-img/06.webp",
-    "prompt": "Create a vertical 9:16 image featuring the original subject from the provided photo, maintaining their exact face, body shape, pose, skin tone, and neutral background unchanged. Digitally overlay a casual t-shirt onto the subject using the following detailed clothing description: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Ensure the t-shirt naturally drapes over the subject’s torso, fitting realistically according to their body shape. Show the full figure from head to mid-thigh within a vertical 9:16 aspect ratio, adjusting the framing as needed without cutting the subject. The t-shirt must appear natural and seamlessly integrated, while all other elements—including the subject’s facial features, skin, and background—remain completely unaltered.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "",
+    "category": "2"
   },
   {
     "id": "7",
     "name": "Camisa de jean",
     "img": "/bd-img/07.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the existing model’s body. The t-shirt should feature a white torso and black sleeves made of lightweight cotton with a smooth texture. Ensure the fit is regular—slightly loose—and the length reaches the waist. Include a black collar and omit any prints or logos. No functional elements should be visible. The garment must naturally drape and contour to the model's original body shape and pose, with realistic fabric behavior and subtle folds. Keep the original subject’s face, body shape, skin tone, pose, and the neutral background entirely unchanged. Adjust the composition to a 9:16 vertical aspect ratio, showing the full figure from head to mid-thigh, and maintain consistent, neutral background coloring. This is a garment simulation only; do not alter any other aspect of the model or scene.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, long-sleeve button-up shirt made from medium-weight, dark blue denim fabric. The shirt features a relaxed, loose fit with a straight cut that extends slightly past the hips. It has a structured, button-down collar and full-length sleeves with buttoned cuffs. There are two symmetrical chest pockets, each with a pointed flap and a single button closure. The front closure consists of a row of sturdy buttons running from the collar to the hem. The hemline is gently curved, and the shirt has visible stitching along the pocket edges, cuffs, collar, and placket for added detail. The shirt presents a subtle texture consistent with denim and shows no secondary colors or additional embellishments. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
     "id": "8",
     "name": "Camisa cuadros roja",
     "img": "/bd-img/08.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure of the original subject from head to mid-thigh, maintaining the existing pose, body shape, skin tone, and neutral background. Digitally overlay a casual t-shirt with raglan sleeves onto the subject, naturally draping the garment over the body for realism. The t-shirt should have a white torso and black sleeves, made of lightweight cotton with a smooth texture. It should fit regularly, appearing slightly loose, and reach the subject's waist. The design must feature a black collar, with no prints or logos, and no visible functional elements such as pockets or extra seams. Ensure the clothing simulation looks natural, keeping the subject's original appearance and the background unchanged. Maintain the original framing and composition, adjusting as needed to fit the 9:16 aspect ratio without cropping the subject.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual long-sleeve button-up shirt featuring a red and white checkered gingham pattern. The shirt is crafted from lightweight cotton fabric, offering a soft and breathable texture. It has a fitted, tailored cut that contours the torso, extending to hip length with slightly curved hems. The garment includes a classic pointed collar, a front button placket with white buttons, a single patch chest pocket on the left, and adjustable cuffs with visible buttons. No additional embellishments are present. The shirt’s checkered design is consistent across the entire surface, with even squares and precise alignment. Dress must drape naturally, conforming to the model’s arms and torso with realistic fabric folds and movement. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
     "id": "9",
     "name": "Camisa lino blanca",
     "img": "/bd-img/09.webp",
-    "prompt": "Prompt: Digitally overlay a casual t-shirt with raglan sleeves onto the subject in the original image. The t-shirt should have a white torso and black sleeves, made from lightweight cotton with a smooth texture. Ensure a regular fit that is slightly loose, with the shirt’s length reaching the waist. Add a black collar, and keep the design clean with no prints or logos. No functional elements such as pockets or buttons should be visible. The t-shirt must drape naturally with realistic fabric folds and behavior, conforming to the subject's body shape, pose, and movement. Maintain the subject’s original face, body, pose, skin tone, and the neutral background exactly as shown. Frame the full figure from head to mid-thigh, using a vertical 9:16 aspect ratio. The subject should remain centered, with no cropping of their head or mid-thigh. Ensure the overlay looks seamless, as a garment simulation, not a model replacement. The final image should emphasize the new t-shirt while keeping all other original visual elements unchanged.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a classic casual button-up shirt made from lightweight, crisp white cotton fabric. The shirt features a relaxed, loose fit with long sleeves that are gently rolled up at the cuffs. It has a standard pointed collar, a front button placket with white buttons, and a chest patch pocket on the left side. The hem is straight and sits just below the waist. The overall appearance is clean, minimal, and unembellished, emphasizing simplicity and versatility. The fabric appears smooth with a subtle matte finish, without any visible patterns or textures. Dress the original subject in this shirt, digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
     "id": "10",
     "name": "Camisa manga corta estampada",
     "img": "/bd-img/10.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from head to mid-thigh, maintaining the original face, body shape, pose, skin tone, and neutral background. Digitally overlay a casual t-shirt with raglan sleeves onto the subject’s body. The t-shirt should have a white torso and black sleeves, made of lightweight cotton with a smooth texture. The fit must be regular and slightly loose, with the length reaching the waist. Add a black collar, ensuring there are no prints or logos. The fabric should drape naturally and realistically according to the subject’s pose. Make sure no functional elements are visible. Keep the background neutral and consistent with the original. Do not alter any part of the subject other than digitally dressing them in the specified t-shirt.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a short-sleeve, casual button-up Hawaiian shirt. The shirt features a classic, relaxed fit and is made from lightweight, slightly textured cotton fabric. The main color is a deep navy blue, adorned with a vibrant, all-over print of white and red hibiscus flowers, green tropical palm leaves, and pink flamingos. The shirt has a traditional pointed collar, white round buttons down the front, and a straight hem that falls just below the waist. The sleeves are loose and end above the elbow. Ensure all garment details, including the vivid tropical pattern and button closure, are clearly visible and naturally follow the model's body contours. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
     "id": "11",
     "name": "Vestido largo azul",
     "img": "/bd-img/11.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the subject in the original image. The t-shirt should feature a white torso with black sleeves and a black collar, made from lightweight cotton with a smooth texture. Ensure the fit is regular and slightly loose, reaching the waist, with no prints, logos, or other visible details. The t-shirt should naturally drape over the subject's body, matching the pose and contours realistically. Keep the subject’s original face, body shape, pose, skin tone, and the neutral background unchanged. Frame the image vertically in a 9:16 aspect ratio, showing the subject from head to mid-thigh. Maintain the original composition, cropping or adjusting only as necessary to fit the 9:16 ratio without cutting off the subject. The result should look like a garment simulation, not a model replacement. Output only the final image.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a formal, strapless evening gown made from a deep royal blue, slightly shiny taffeta fabric. The dress features a fitted, sweetheart neckline bodice with subtle pleating and possible delicate embellishments, and a dramatic, voluminous floor-length skirt created by multiple asymmetrical gathered layers that give a luxurious, textured appearance. The waist is naturally cinched, and the silhouette is structured yet fluid, offering a sophisticated, elegant profile. There are no visible sleeves, zippers, or external buttons, and the hemline is full-length, pooling slightly at the base. The overall look is formal and opulent, suitable for gala events. Dress the original subject in this described garment. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
     "id": "12",
     "name": "Vestido corto negro",
     "img": "/bd-img/12.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from head to mid-thigh, wearing a casual t-shirt with raglan sleeves. The t-shirt should have a white torso, black sleeves, and a black collar, made from lightweight cotton with a smooth texture. It should fit regularly, appearing slightly loose, and reach the waist with no prints or logos. Overlay the t-shirt naturally onto the original subject, ensuring realistic draping and fabric behavior. The subject’s face, body shape, pose, skin tone, and the neutral background must remain unchanged. Maintain the original framing and composition, adjusting only to fit the 9:16 aspect ratio without cutting the subject.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a sleeveless, knee-length dress in deep black. The dress features a fitted bodice and a subtly flared skirt, made from a soft, medium-weight knit fabric with a slightly textured matte finish. It has a square neckline and wide shoulder straps, both with gently scalloped edges. Eyelet metal grommet detailing decorates the neckline, straps, and hem, forming two neat rows of metallic circles that add a bold decorative accent. The dress has no visible fastenings, closures, or pockets, maintaining a streamlined silhouette. Dress hem is finished with matching scalloped edges and a band of eyelets. Dress the original subject in the provided image with this garment. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
     "id": "13",
     "name": "Vestido floreado",
     "img": "/bd-img/13.webp",
-    "prompt": "Create a realistic garment simulation by digitally overlaying a casual t-shirt with the following details onto the existing dress model, while preserving the model’s original face, body shape, pose, skin tone, and neutral background. The t-shirt should feature raglan sleeves with a white torso and black sleeves, made from lightweight cotton with a smooth texture. The fit should be regular and slightly loose, reaching the waist, with a black collar and no prints or logos. There should be no visible functional elements. The fabric must naturally drape over the model’s original curves, maintaining a realistic appearance and the original lighting and shadows. Crop or adjust the image as necessary to fit a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh, while keeping the framing and composition intact and the background unchanged. Output only the final vertical image.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a form-fitting, sleeveless slip dress in soft pastel pink, featuring a delicate, subtle floral pattern. The dress is made of a lightweight, silky satin material with a smooth, glossy texture and a gentle sheen. It has thin spaghetti straps, a draped cowl neckline, and is tailored to hug the body closely down to the knees before gently flaring out into a long, floor-length hem with an asymmetric, ruffled accent on one side. There are no visible fastenings, pockets, or additional adornments. The overall look is elegant and flowing, with a romantic, vintage-inspired feel. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
     "id": "14",
     "name": "Vestido de fiesta dorado",
     "img": "/bd-img/14.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure of the original subject from head to mid-thigh, maintaining the original neutral background and natural lighting. Keep the subject's face, body shape, pose, skin tone, and background entirely unchanged. Digitally overlay a casual t-shirt with raglan sleeves onto the subject's body, ensuring realistic fabric drape and fit. The t-shirt should have a white torso, black sleeves, and a black collar, made of lightweight cotton with a smooth texture. The fit is regular and slightly loose, reaching the waist, with no prints, logos, or visible functional elements. Preserve the natural appearance, proportions, and realistic shadows, making the garment blend seamlessly with the original figure. Do not alter any other aspect of the image.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a formal, floor-length gown made entirely of gold sequins. The dress features a high neckline, long fitted sleeves, and a straight, slim silhouette that gently skims the body from the shoulders to the hem. The surface of the garment is densely covered in shiny, reflective gold sequins, creating a glamorous and eye-catching texture throughout. The fit is tailored and form-fitting, without any visible functional elements such as buttons, zippers, or pockets. The hem reaches just above the floor, and the dress is unadorned except for its all-over sequin embellishment. Dress must maintain a smooth and continuous drape, closely following the original body shape. Dress the original subject in the provided image with this garment. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
     "id": "15",
     "name": "Vestido casual verde",
     "img": "/bd-img/15.webp",
-    "prompt": "Full-body vertical image (9:16 aspect ratio) of a woman standing against a neutral, consistent background. She is wearing a casual t-shirt with raglan sleeves: the torso is white, the sleeves are black, and the collar is also black. The t-shirt is made of lightweight cotton with a smooth texture. The fit is regular and slightly loose, with the hem reaching the waist and draping naturally over her torso and arms, showing realistic fabric behavior. There are no prints or logos on the shirt, and no visible functional elements. The subject’s face, body shape, pose, skin tone, hair, and all background elements remain unchanged and natural. Show the full figure from head to mid-thigh, cropped or adjusted to fit the 9:16 vertical frame without cutting the subject.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeved skater dress in a deep forest green color. The dress is made from a soft, medium-weight, matte fabric with a smooth, slightly stretchy texture that provides a comfortable yet structured fit. It features a fitted bodice with a V-neckline, a subtle gathered seam under the bust, and a natural waistline that flares out into a gently flowing, above-the-knee A-line skirt. The sleeves are close-fitting and end just above the elbow. The dress has a plain hem with no visible embellishments, closures, buttons, or pockets, emphasizing a simple and elegant silhouette. Dress the original subject in this garment. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
     "id": "16",
     "name": "Pantalón de jean azul",
     "img": "/bd-img/16.webp",
-    "prompt": "Dress the original subject in the provided image with a digitally overlaid casual t-shirt featuring raglan sleeves. The t-shirt should have a white torso and black sleeves, crafted from lightweight cotton with a smooth texture. Ensure the fit appears regular, slightly loose, and reaches the waist. Add a black collar, keeping the shirt free of prints or logos. No functional elements should be visible. The t-shirt must drape naturally and realistically over the existing model’s form, preserving the original body shape, pose, and skin tone. Maintain the subject’s face, background, and overall appearance unchanged. Render the final image vertically in a 9:16 aspect ratio, showing the full figure from head to mid-thigh with consistent, neutral background. The composition should remain true to the original, adjusting or cropping only as necessary to fit the 9:16 frame without cutting off the subject.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of slim-fit jeans made of heavy, dark indigo denim. The jeans feature a classic five-pocket design, including two front pockets, a small coin pocket on the right, and two back pockets. They have a mid-rise waist with belt loops, a front metal button closure, and a visible zipper fly. The stitching is in a contrasting golden brown color, providing a subtle accent to the deep blue fabric. The jeans are full length, tapering slightly towards the ankles, and have a clean, unembellished hem. All fabric textures, seams, and pocket placements should appear natural and realistic. Dress the original subject with these jeans while keeping the subject's face, body shape, pose, skin tone, and background entirely unchanged. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
     "id": "17",
     "name": "Pantalón jogger gris",
     "img": "/bd-img/17.webp",
-    "prompt": "Dress the original subject in the image with a casual t-shirt featuring raglan sleeves. The t-shirt should have a white torso and black sleeves, crafted from lightweight cotton with a smooth texture. The fit must be regular, slightly loose, and the length should reach the waist. Include a black collar and ensure there are no prints or logos. No visible functional elements should be present. Overlay the t-shirt digitally onto the subject so it drapes naturally and realistically over the body, conforming to the original pose, body shape, and skin tone. Do not alter the subject’s face, body, stance, or the neutral background. Present the full figure from head to mid-thigh in a vertical 9:16 aspect ratio, maintaining the original composition and cropping if necessary. The dungarees or pants remain unchanged. Output should be a single, vertically-oriented realistic garment simulation with a consistent neutral background.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of relaxed-fit, ankle-length pants in a soft, light gray color. The pants are crafted from a lightweight, smooth fabric with a matte finish, offering a casual yet polished appearance. They feature an elastic waistband with a matching gray drawstring tie at the front, two large square patch pockets positioned at the hips, and straight, loose-fitting legs for a comfortable silhouette. The hem is clean and simple, with no visible embellishments or cuffs. There are no visible zippers, buttons, or other fastenings except for the drawstring. The overall design emphasizes functionality and minimalism, suitable for everyday wear. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
     "id": "18",
     "name": "Pantalón cargo verde",
     "img": "/bd-img/18.webp",
-    "prompt": "Create a vertical 9:16 image showing a full figure from head to mid-thigh, using the original subject and background exactly as they are. Digitally overlay a casual t-shirt with raglan sleeves onto the subject’s body, ensuring natural draping and realistic cotton fabric behavior. The t-shirt must have a white torso with black sleeves, a black collar, and no prints or logos. Material should appear lightweight cotton with a smooth texture, in a regular fit that is slightly loose and reaches the waist. No visible functional elements. Maintain the original face, body shape, pose, skin tone, and background unchanged. Crop or adjust composition if needed to fit the vertical 9:16 ratio without cutting off the subject. This is a garment simulation, not a model replacement.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of straight-leg cargo pants in a muted olive green color. The pants are made from a medium-weight, matte fabric, likely a durable cotton blend with a smooth, slightly structured texture. They have a mid-rise waist with a flat front, a button and zipper fly closure, and belt loops. The fit is relaxed and straight, falling to full length with hems that reach the ankles and adjustable drawstrings at the cuffs. The pants feature large, functional patch cargo pockets with flaps on each thigh, and subtle seam detailing at the knees. There are no visible decorative elements beyond the practical pocket flaps and drawstrings. Dress the original subject in the provided image with these cargo pants. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
     "id": "19",
     "name": "Pantalón de vestir negro",
     "img": "/bd-img/19.webp",
-    "prompt": "Digitally dress the original subject in the provided image with the following t-shirt: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Overlay this t-shirt onto the existing model’s body so that the fabric drapes naturally and realistically, matching the lighting, shadows, and folds. Keep the model’s original face, body shape, pose, skin tone, and background fully unchanged. The pants must remain just as in the original image. Adjust the composition to a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh. Preserve a neutral and consistent background, making any cropping adjustments as needed to fit the 9:16 frame without cutting off the subject. Output only the final garment simulation as a high-quality, realistic image.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with classic, high-waisted, straight-leg formal trousers. These trousers are solid black in color, featuring a smooth matte woven fabric with a medium weight, likely a blend suitable for office or elegant occasions. The fit is tailored but not slim, offering a structured and slightly relaxed silhouette. The trousers have belt loops at the waistband, a concealed front fastening, subtle vertical front creases, and side seam pockets. The length falls to just above the ankles, with a clean, plain hem and no visible embellishments. The design is minimalist, with no visible external buttons or zippers, emphasizing formal simplicity. Dress the original subject in these trousers. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
     "id": "20",
     "name": "Pantalón corto beige",
     "img": "/bd-img/20.webp",
-    "prompt": "Create a vertical 9:16 image showing a full-figure view from head to mid-thigh of the original subject. The subject’s face, body shape, pose, skin tone, and neutral background must remain entirely unchanged. Digitally overlay the following shirt onto the existing model’s body with realistic garment simulation, natural draping, and fabric behavior: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Maintain the original shorts and ensure the t-shirt appears naturally worn by the subject. Keep the background neutral and consistent with the original. Use a vertical 9:16 aspect ratio, cropping or adjusting the full figure as needed without cutting the subject.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of casual, straight-cut shorts in a solid beige color. The shorts are made from lightweight, smooth technical fabric, likely nylon or a quick-dry polyester blend, featuring a matte finish. They reach to mid-thigh length, have a flat waistband with a single central button and zipper fly closure, and two angled front pockets without visible embellishments. The fit is relaxed but not oversized, with clean, simple lines and no visible cuffs, patterns, or secondary colors. The garment is minimalistic, without additional adornments, and its edges are neatly hemmed. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
     "id": "21",
     "name": "Campera de cuero negra",
     "img": "/bd-img/21.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from head to mid-thigh, ensuring the subject's face, body shape, pose, skin tone, and the neutral background remain unchanged. Digitally overlay a casual t-shirt onto the subject, adhering to this description: raglan sleeves, white torso, black sleeves, lightweight smooth cotton material, regular fit that is slightly loose, length reaching the waist, black collar, no prints or logos, and no visible functional elements. The t-shirt must drape naturally and realistically on the subject’s body. Maintain the original framing and composition, cropping or adjusting as needed to achieve the 9:16 aspect ratio without cutting off the subject. Ensure all details are clear and realistic, focusing only on the accurate simulation of the described garment.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a sleek, fitted black faux leather jacket featuring a short, waist-length cut. The jacket has a minimalist, contemporary style with a round, collarless neckline (band collar), long sleeves with subtle stitched detailing at the cuffs, and vertical seam lines shaping the torso. It fastens with a central silver zipper and includes two horizontal zippered pockets at the front near the waist. The lower hem and cuffs have a textured, smocked or ruched panel for added structure and visual interest. The surface has a matte finish with a smooth, slightly structured appearance. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
     "id": "22",
     "name": "Campera inflable azul",
     "img": "/bd-img/22.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the subject in the original image, replacing their upper garment. The t-shirt should feature a white torso and black sleeves, crafted from lightweight cotton with a smooth texture. Ensure the fit is regular and slightly loose, reaching the waist, and add a black collar. The t-shirt should have no prints or logos and no visible functional elements. The overlay should drape naturally and realistically over the subject’s original body shape, pose, and arms, maintaining realistic fabric behavior. The subject’s original face, body, pose, and skin tone must remain completely unchanged. Present the scene as a vertical 9:16 image, showing the full figure from head to mid-thigh, with the original neutral background preserved. Crop or adjust as needed to fit the 9:16 ratio without cutting the subject, ensuring natural composition and framing.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, puffer-style jacket in deep navy blue. The jacket features a matte, quilted, down-filled texture, providing a slightly glossy but smooth finish. It has a medium-loose fit, hip-length cut, and a front central zipper closure. The design includes two vertical zippered side pockets, a softly contoured, full-size hood, long sleeves with narrow elasticized cuffs, and subtle horizontal stitching throughout. The collar is integrated with the hood, and there are no external logos, embellishments, or patterns. Dress details such as the stitching, functional zippers, and the slight puffiness of the fabric should be visible and realistic. Dress the original subject in the provided image with this jacket: The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
     "id": "23",
     "name": "Campera de jean celeste",
     "img": "/bd-img/23.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure of the original subject from head to mid-thigh, preserving the original face, body shape, pose, skin tone, and neutral background exactly as in the provided image. Digitally overlay a casual t-shirt with the following details onto the subject: raglan sleeves, white torso, black sleeves, black collar, no prints or logos, made of lightweight cotton with a smooth texture, regular slightly loose fit, and length reaching the waist. The shirt must drape naturally and realistically on the subject’s body, maintaining all natural folds and shadows. The rest of the subject and the background should remain unchanged, with the composition adjusted or cropped as needed for a vertical 9:16 aspect ratio without cutting off the subject. This is a garment simulation, not a replacement or alteration of the original model.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a classic, waist-length, light blue denim jacket. The jacket features a straight, regular fit with long sleeves and structured shoulders. It is made of medium-weight, slightly faded denim fabric with visible vertical and horizontal seam stitching. The collar is a standard shirt-style collar, and the front has a central placket with five metallic gold buttons. There are two button-flap chest pockets, each secured with a metallic gold button, and vertical seam detailing along the front. Sleeve cuffs are fitted with a single metallic gold button each. The jacket hem is straight and sits just above the hips. Dress the subject so that the jacket drapes naturally with realistic denim texture and visible seams. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
     "id": "24",
     "name": "Campera deportiva roja",
     "img": "/bd-img/24.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure from head to mid-thigh of the original subject. Digitally overlay a casual t-shirt with the following description onto the subject's body: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Ensure the t-shirt drapes naturally and realistically, matching the original pose, body shape, and proportions of the subject. Maintain the subject’s original face, skin tone, hands, and any visible features unchanged. Keep the background neutral and consistent with the original image. Adjust the framing to a 9:16 vertical aspect ratio, showing the full figure from head to mid-thigh, without cutting off any part of the subject. The result should look like a realistic garment simulation, not a model replacement. Output only the final image.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a sporty, outdoor-style jacket. The jacket is bright red as its primary color, made from a smooth, medium-weight water-resistant synthetic fabric with a semi-matte finish. It features a regular, straight cut that fits comfortably but not too tightly, extending to just below the hips. The design includes a high collar integrated into an adjustable hood with visible drawstrings and black toggles. The jacket has long raglan sleeves, straight cuffs, and a central front zipper in red. There are three zippered pockets: two vertical zippered pockets at the hip sides and one vertical zippered chest pocket, all with contrasting black zipper pulls. The jacket has clean lines with minimal embellishments and functional, practical stitching at seam points. Dress details such as the zippers and pocket placements should be accurately represented. Dress the garment onto the existing model, ensuring natural fabric folds and realistic overlay. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
     "id": "25",
     "name": "Campera impermeable verde",
     "img": "/bd-img/25.webp",
-    "prompt": "Create a vertical 9:16 image of the original subject, showing the full figure from head to mid-thigh. Digitally overlay a casual t-shirt with raglan sleeves onto the subject’s body. The t-shirt should have a white torso and black sleeves, made of lightweight cotton with a smooth texture. It should be a regular, slightly loose fit, reaching the waist, with a black collar and no prints or logos. Ensure the t-shirt drapes naturally and realistically, matching the subject’s original pose and body shape. The subject’s face, body, skin tone, and the neutral background must remain unchanged. Maintain the same framing and composition as the original, adjusting only to fit the 9:16 aspect ratio without cutting off the subject. This is a garment simulation; do not replace the model or alter any other features. Output only the final image.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a military-style, loose-fitting jacket in solid olive green. The jacket features a matte, durable synthetic material with a slightly structured but soft texture, designed for outdoor or tactical use. It is hip-length with a straight cut, offering ample room through the body and arms. The garment includes a high stand-up collar with a built-in hood, long roomy sleeves with adjustable cuffs, and visible patch areas on the chest and upper sleeves for Velcro badges. The front has a concealed full-length zipper covered by a Velcro storm flap, two large vertical pockets at the waist, and reinforced stitching along seams and edges. Subtle adjuster cords are visible at the hem and hood, and the overall appearance is utilitarian with minimal decorative elements. Dress the original subject in this jacket, ensuring the clothing is digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
-    "id": "26",
+    "id": "1",
     "name": "Remera básica blanca",
     "img": "/bd-img/01.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the original subject in the provided image. The t-shirt should have a white torso and black sleeves, crafted from lightweight cotton with a smooth texture. Ensure a regular, slightly loose fit that naturally drapes over the subject's body, reaching the waist. Include a black collar and ensure the shirt is free of any prints or logos, with no visible functional elements. Maintain the subject's original face, body shape, pose, skin tone, and a neutral, consistent background. Present the final image vertically in a 9:16 aspect ratio, showing the full figure from head to mid-thigh. Do not alter the subject’s features or background; focus solely on a realistic garment simulation.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeve raglan T-shirt. The shirt features a solid white body with contrasting black sleeves and a black crew neckline. It is made from lightweight cotton fabric with a smooth, matte texture. The fit is regular, not tight or oversized, falling comfortably to the waist. The sleeves are cut in the distinctive raglan style, creating a diagonal seam from the collar to the underarm for a sporty look. There are no visible embellishments, pockets, or fasteners. The hems on the sleeves and bottom are clean and simple. Dress the original subject in this shirt, ensuring natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
-    "id": "27",
+    "id": "2",
     "name": "Remera rayada azul",
     "img": "/bd-img/02.webp",
-    "prompt": "Create a vertical 9:16 image that shows the full figure of the original subject from head to mid-thigh. Digitally dress the subject in a casual t-shirt with raglan sleeves. The t-shirt should have a white torso and black sleeves, be made of lightweight cotton with a smooth texture, and feature a regular, slightly loose fit that reaches the waist. Add a black collar to the t-shirt and ensure there are no prints or logos or visible functional elements. Overlay the garment naturally onto the subject’s existing body, preserving realistic fabric draping and movement. Keep the subject’s original face, body shape, pose, skin tone, and neutral background unchanged. Adjust composition and crop as needed to maintain a full figure view and a 9:16 vertical aspect ratio, ensuring the subject is not cut off.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual short-sleeved T-shirt featuring horizontal navy blue and white stripes. The shirt is made of lightweight, soft cotton material with a slightly loose, comfortable fit that falls to the waist. It has a round, slightly open neckline with a four-button placket, and a small chest pocket on the left side. The sleeves are short and relaxed, and there are no additional decorations aside from the stripes and pocket. The fabric has a matte finish and appears soft to the touch. The hem is straight and informal. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
-    "id": "28",
+    "id": "3",
     "name": "Remera deportiva negra",
     "img": "/bd-img/03.webp",
-    "prompt": "**Prompt:** A vertical 9:16 image featuring a man wearing a casual t-shirt with raglan sleeves. The t-shirt has a white torso and black sleeves, made from lightweight cotton with a smooth texture. It features a regular, slightly loose fit and reaches the waist. The t-shirt has a black collar and no prints or logos, with no visible functional elements. The garment is digitally overlaid onto the existing model’s body, following natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and the neutral background all remain unchanged. The full figure is shown from head to mid-thigh, maintaining the original framing and composition, cropped or adjusted as needed to fit the 9:16 aspect ratio without cutting the subject. This is a garment simulation, not a model replacement.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeve T-shirt featuring a classic crew neck. The T-shirt is solid black with no visible secondary colors or patterns. It appears to be made from a smooth, slightly stretchy, lightweight cotton or cotton-blend fabric with a matte finish and soft texture. The cut is regular fit—not too tight nor overly loose—and the shirt falls to just below the waist, with a straight hem. The sleeves are standard length, ending at mid-bicep, with simple finished edges. There are no visible adornments, pockets, buttons, zippers, or other functional elements. Dress the original subject in this garment, digitally overlaying it onto the existing model’s body with natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
-    "id": "29",
+    "id": "4",
     "name": "Remera oversize verde",
     "img": "/bd-img/04.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the subject in the provided image. The t-shirt should have a white torso and black sleeves, featuring a black collar. The material must appear as lightweight cotton with a smooth texture, draping naturally and showing realistic fabric behavior. The fit should be regular and slightly loose, with the length reaching the waist. There should be no prints or logos and no visible functional elements. Maintain the subject’s original face, body shape, pose, skin tone, and the neutral background exactly as in the original image. The background should remain consistent and unobtrusive. Adjust the framing as needed to display the full figure from head to mid-thigh in a vertical 9:16 aspect ratio, without cutting off any part of the subject. Ensure the overall composition appears natural and seamless. Output only the final image.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "",
+    "category": "1"
   },
   {
-    "id": "30",
+    "id": "5",
     "name": "Remera estampada roja",
     "img": "/bd-img/05.webp",
-    "prompt": "**Prompt for a Vertical 9:16 Garment Simulation Image:** Digitally overlay a casual t-shirt with raglan sleeves onto the subject from the provided image. The t-shirt design features a white torso and contrasting black sleeves, made from lightweight cotton with a smooth texture. The fit is regular, slightly loose, with a hem reaching the waist. Include a black collar with no prints or logos, and ensure no visible functional elements. Simulate natural draping and realistic fabric behavior for the t-shirt, keeping the original subject’s face, body shape, pose, and skin tone unchanged. Maintain the original neutral background and overall composition. Adjust the framing to a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh, without cropping the subject. The output should be a realistic garment simulation, not a model replacement, preserving all background and subject details except for the digitally added t-shirt.",
-    "category": {
-      "id": "1",
-      "name": "Remeras"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual T-shirt featuring a classic crew neck and short sleeves. The shirt is solid bright red with no secondary colors or visible patterns. It is made from medium-weight, smooth cotton fabric that has a matte finish and soft, even texture. The cut is regular fit—neither tight nor oversized—with straight side seams and a length that falls just below the waist. The neckline is ribbed, the sleeves are standard length ending mid-upper arm, and the hem is simple and unadorned. There are no additional details such as buttons, zippers, pockets, or embellishments. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "1"
   },
   {
-    "id": "31",
+    "id": "6",
     "name": "Camisa formal celeste",
     "img": "/bd-img/06.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from head to mid-thigh, dressed in a casual t-shirt with raglan sleeves. The t-shirt should have a white torso and black sleeves, made from lightweight cotton with a smooth texture. It should be a regular fit, slightly loose, and reach the waist. The collar is black, and there are no prints or logos. There are no visible functional elements. The t-shirt must be digitally overlaid onto the subject’s body with natural draping and realistic fabric behavior, fully preserving the subject’s original face, body shape, pose, skin tone, and background. The background should remain neutral and consistent with the original. Maintain the original framing and composition, cropping or adjusting only as needed to fit the 9:16 aspect ratio without cutting off the subject. This is a garment simulation, not a replacement of the model. Output only the final image.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a formal, classic men's dress shirt featuring a light blue solid color. The shirt is made of smooth, lightweight cotton with a crisp texture and slight sheen, tailored in a regular, straight cut for a comfortable fit. It has a standard length that falls to the hips, long sleeves with buttoned cuffs, a pointed collar, and a clean, button-down front closure. The left chest area includes a single rectangular patch pocket. The shirt has no visible patterns, logos, or decorative elements apart from the pocket and buttons. Dress the subject maintaining the shirt's structure, button alignment, and natural fabric draping as seen in the reference. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
-    "id": "32",
+    "id": "7",
     "name": "Camisa de jean",
     "img": "/bd-img/07.webp",
-    "prompt": "Create a vertical 9:16 image featuring the original subject. Overlay a digitally rendered casual t-shirt with raglan sleeves onto the model’s body, ensuring natural draping and realistic lightweight cotton fabric behavior. The t-shirt has a white torso and black sleeves, a black collar, a regular slightly loose fit, and reaches the waist with no prints or logos. Remove all traces of the original shirt underneath. Keep the subject’s original face, body shape, pose, skin tone, and background unchanged. Frame the subject from head to mid-thigh, cropping or adjusting as necessary to fit the 9:16 aspect ratio while maintaining a neutral and consistent background.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, long-sleeve button-up shirt made from dark blue denim. The shirt has a classic fit, straight cut, and extends slightly below the waist. It features a pointed collar, buttoned front placket, and two chest flap pockets with button closures. The cuffs are buttoned, and the shirt’s material is visibly sturdy with a subtle, textured appearance common to denim. All stitching and seam lines are consistent with a typical workwear-inspired denim shirt. The overall look is unfitted and relaxed. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
-    "id": "33",
+    "id": "8",
     "name": "Camisa cuadros roja",
     "img": "/bd-img/08.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure from head to mid-thigh of the subject in the original image, maintaining the original face, body shape, pose, skin tone, and neutral background. Digitally overlay a casual t-shirt onto the existing model’s body, replacing the original clothing with the following description: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Ensure the new t-shirt drapes naturally with realistic fabric behavior, and that the subject's original features and background remain completely unchanged. Crop or adjust the image as needed to fit a vertical 9:16 aspect ratio without cutting off the subject, keeping the composition centered and consistent.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a long-sleeved, casual button-up shirt featuring a classic gingham pattern in red and white. The shirt is made of lightweight cotton with a soft, slightly textured feel. It has a tailored, slim-fit cut that contours the torso, extending to the hips for standard shirt length. The collar is a traditional spread style, and the shirt includes a single, subtle chest pocket on the left side. White buttons run along the central placket, with matching buttons on the sleeve cuffs and an additional button detail on the upper arm to secure rolled-up sleeves. The hem is slightly curved. The pattern consists of evenly spaced small red and white checks throughout. Dress the original subject in this shirt, digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
-    "id": "34",
+    "id": "9",
     "name": "Camisa lino blanca",
     "img": "/bd-img/09.webp",
-    "prompt": "Digitally overlay a casual t-shirt with the following features onto the figure in the original image: Type: casual t-shirt with raglan sleeves; Colors: white torso with black sleeves; Material: lightweight cotton with a smooth texture; Fit: regular fit, slightly loose; Length: reaching the waist; Details: black collar, no prints or logos; Functional elements: none visible. The t-shirt should realistically drape over the subject’s body, respecting the original pose, proportions, and natural fabric behavior. Maintain the subject’s original face, body shape, pose, skin tone, and the neutral background exactly as they are. Frame the image vertically in a 9:16 aspect ratio, showing the full figure from head to mid-thigh, adjusting the crop as necessary to keep the subject fully in view. Do not alter the subject or background beyond fitting the garment. This is a garment simulation, not a model replacement.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, long-sleeve, button-up shirt made from crisp, lightweight cotton fabric in pure white. The shirt features a straight, loose fit that falls to the hips, a classic pointed collar, a single open chest pocket on the left side, and standard buttoned front closure. The sleeves are full-length with cuffs casually folded back, and the hemline is slightly rounded. There are no visible decorative elements or secondary colors; all buttons are white, matching the shirt. Overlay this garment onto the existing model's body with realistic draping and authentic fabric texture. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
-    "id": "35",
+    "id": "10",
     "name": "Camisa manga corta estampada",
     "img": "/bd-img/10.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure from head to mid-thigh of the original subject as seen in the provided image. Keep the subject’s face, body shape, pose, skin tone, and the original neutral background unchanged. Digitally overlay a casual t-shirt with raglan sleeves onto the subject, replacing their existing shirt. The t-shirt should have a white torso, black sleeves, and a black collar, with no prints or logos. The material must appear as lightweight cotton with a smooth texture, draping naturally and realistically. The fit should be regular, slightly loose, and the shirt should reach the waist. No visible functional elements are present. Ensure the new garment matches the lighting and contours of the body for a lifelike simulation. Keep all other aspects of the original image intact aside from the updated clothing.",
-    "category": {
-      "id": "2",
-      "name": "Camisas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeve Hawaiian shirt featuring a vibrant and detailed tropical print. The shirt displays a dark navy blue base color adorned with large, multicolored floral patterns in shades of white, red, and pink, along with green palm leaves and pink flamingos as accent motifs. The fabric appears to be lightweight cotton, with a slightly textured, breezy look. The shirt has a straight, loose fit that falls just below the waist, a classic pointed collar, and a front button-down closure with white buttons. The sleeves are short and relaxed, and the hem is straight. There are no visible pockets or extra adornments besides the print. Dress the original subject in this shirt, ensuring the clothing is digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "2"
   },
   {
-    "id": "36",
+    "id": "11",
     "name": "Vestido largo azul",
     "img": "/bd-img/11.webp",
-    "prompt": "Generate a vertical 9:16 image showing a person originally dressed in a blue strapless ball gown, now digitally wearing a casual t-shirt with raglan sleeves. Clothing details: - Type: casual t-shirt with raglan sleeves - Colors: white torso, black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible The t-shirt should naturally drape over the person's body and conform to their original figure, pose, and posture, maintaining realistic folds and fabric behavior as if actually worn. The subject’s face, body shape, pose, skin tone, and hands should remain exactly the same as in the original image. Preserve the background intact—neutral and consistent—without alterations. Show the subject from head to mid-thigh, keeping the original composition and centering. The final image must be vertical in a 9:16 aspect ratio.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a formal, floor-length evening gown featuring a strapless sweetheart neckline. The dress is made of rich, deep royal blue taffeta, giving it a subtly shiny and structured appearance. The bodice is fitted and delicately ruched, while the skirt is voluminous with multiple horizontal, gathered layers that create a dramatic, cascading effect. There are no visible sleeves, buttons, zippers, or functional pockets. The hem reaches the floor and the overall silhouette is elegant and full. The gown has no prominent embellishments aside from the gathered fabric detail on the skirt and subtle ruching on the bodice. Dress length is full, proportions are classic ballgown. Dress the original subject in the provided image with this detailed formal gown. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
-    "id": "37",
+    "id": "12",
     "name": "Vestido corto negro",
     "img": "/bd-img/12.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the existing model in the provided image, ensuring a natural, realistic fit and fabric draping over the subject's body. The t-shirt should have a white torso, black sleeves, and a black collar, made from lightweight cotton with a smooth texture. It should be a regular fit, slightly loose, and reach the waist, with no prints, logos, or visible functional elements. The subject's original face, body shape, pose, skin tone, and the neutral background must remain completely unchanged. The final image should be vertical with a 9:16 aspect ratio, showing the full figure from head to mid-thigh, maintaining the original composition and framing. Cropping or adjustment is allowed to fit 9:16 as long as the subject is shown as specified. Output only the digitally dressed result.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a sleeveless, fitted A-line dress made from a black, medium-weight knit fabric with a subtle, smooth texture. The dress features a wide, squared neckline and broad shoulder straps, both adorned with evenly spaced metallic eyelet embellishments that trace the neckline and run vertically along the straps. The dress has a fitted bodice and a gently flared skirt that falls to just above the knee. Both the neckline and hem are finished with a delicate scalloped edge, and the hemline is further decorated with matching metallic eyelets as seen at the top. There are no visible functional elements such as buttons, zippers, or pockets. The overall look is modern and slightly edgy due to the metallic accents. Dress the original subject in this described garment. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
-    "id": "38",
+    "id": "13",
     "name": "Vestido floreado",
     "img": "/bd-img/13.webp",
-    "prompt": "Digitally overlay a casual t-shirt with raglan sleeves onto the original subject in the image. The t-shirt should have a white torso and black sleeves, made of lightweight cotton with a smooth texture. It must be a regular fit, slightly loose, and reach the waist. Include a black collar and ensure there are no prints or logos. There should be no visible functional elements. The t-shirt must drape naturally and realistically over the model's body, following the body shape and original pose. Keep the original face, body shape, pose, skin tone, and background entirely unchanged. The image should be vertical, in a 9:16 aspect ratio, showing the full figure from head to mid-thigh. Maintain the original neutral background, cropping or adjusting the composition as needed to fit 9:16 without cutting the subject. This is a garment simulation, not a model replacement. Output only the final image.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a fitted, ankle-length slip dress featuring a delicate light pink color with a soft, pastel floral print throughout. The dress is made from a silky, glossy fabric that drapes smoothly along the body, emphasizing a figure-hugging silhouette. It has thin spaghetti straps, a subtle cowl neckline, and a bias-cut construction that flares slightly at the hem. A decorative ruffle detail is present on one side near the lower portion of the skirt, adding a touch of movement. The material appears lightweight and slightly shiny, with no visible buttons, zippers, or functional pockets. The garment has a clean, minimalistic finish with a soft, romantic aesthetic. The original subject’s face, body shape, pose, skin tone, and background must remain entirely unchanged. The clothing must be digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
-    "id": "39",
+    "id": "14",
     "name": "Vestido de fiesta dorado",
     "img": "/bd-img/14.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure from head to mid-thigh of the original subject. The subject’s face, body shape, pose, skin tone, and neutral background must remain entirely unchanged. Digitally overlay the following clothing description onto the subject’s body as a garment simulation: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Depict the t-shirt with natural draping and realistic fabric behavior, conforming to the subject's pose. Maintain the original framing and composition, cropping or adjusting as needed to fit the vertical 9:16 aspect ratio without cutting the subject. The background should remain neutral and unchanged. Output only the final image.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a formal, floor-length gown fully covered in dense, gold sequins. The dress features a fitted silhouette with a straight cut that follows the natural lines of the body, extending all the way to the floor. It has long, slim sleeves and a high, close-fitting neckline. The fabric appears structured yet flexible, creating a shimmering, reflective texture across the entire garment. There are no visible embellishments apart from the all-over sequins, and the dress has no visible closures or pockets. The hem is straight and elongated for an elegant effect. Dress the original subject in this garment, ensuring natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
-    "id": "40",
+    "id": "15",
     "name": "Vestido casual verde",
     "img": "/bd-img/15.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from head to mid-thigh, maintaining the same pose, face, body shape, skin tone, and neutral background. Digitally overlay a casual t-shirt with raglan sleeves onto the subject's body: the t-shirt should have a white torso, black sleeves, a black collar, and no prints or logos. The material should appear as lightweight cotton with a smooth texture, in a regular fit that is slightly loose, and the length should reach the waist. Ensure the t-shirt drapes naturally and realistically over the existing body, clearly visible in the image. Preserve the original framing and composition, cropping or adjusting as necessary to fit the 9:16 aspect ratio without cutting off the subject. Show the subject from head to mid-thigh, and keep the background neutral and unchanged.",
-    "category": {
-      "id": "3",
-      "name": "Vestidos"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, short-sleeve, fit-and-flare dress in a deep emerald green color. The dress is made of a smooth, lightweight fabric with a matte finish, offering a gentle drape. It features a V-neckline with a subtle wrap-style front, fitted bodice, and a slightly flared skirt that falls above the knees. The sleeves are short and fitted, and the hemline is simple without additional embellishments. There are no visible buttons, zippers, pockets, or decorative elements. The garment has clean, minimalistic lines and no visible texture or patterns. The style is modern and versatile, suitable for daytime or semi-formal occasions. Dress the original subject in the provided image with this description. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "3"
   },
   {
-    "id": "41",
+    "id": "16",
     "name": "Pantalón de jean azul",
     "img": "/bd-img/16.webp",
-    "prompt": "Create a vertical 9:16 image showing a full figure from head to mid-thigh, maintaining the original neutral background and composition. Overlay a casual t-shirt with raglan sleeves onto the subject. The t-shirt should have a white torso and black sleeves, made of lightweight cotton with a smooth texture, regular fit (slightly loose), and length reaching the waist. Add a black collar, with no prints or logos, and no visible functional elements. The t-shirt should drape naturally and realistically over the subject’s existing body and pose. Keep the subject’s original face, body shape, skin tone, jeans, and background completely unchanged. This is a garment simulation, not a model replacement.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of classic slim-fit jeans. These jeans are made of heavy, dark indigo denim with a rigid texture and a clean, uniform wash. The style features a mid-rise waist with a standard waistband, a straight and slightly tapered leg that reaches the ankle, and minimal fading. Visible elements include copper rivets at the corners of the front and coin pockets, a metallic front button with a zip fly closure, and traditional five-pocket styling with reinforced stitching. The jeans have simple, neat hems and no visible distressing or embellishments. Dress the original subject in these jeans, ensuring the clothing is digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
-    "id": "42",
+    "id": "17",
     "name": "Pantalón jogger gris",
     "img": "/bd-img/17.webp",
-    "prompt": "Please generate a vertical 9:16 image of a full figure from head to mid-thigh, featuring the original subject from the provided image. Dress the subject in a digitally overlaid casual t-shirt with the following detailed description: - Type: casual t-shirt with raglan sleeves - Colors: white torso with black sleeves - Material: lightweight cotton with a smooth texture - Fit: regular fit, slightly loose - Length: reaching the waist - Details: black collar, no prints or logos - Functional elements: none visible Ensure the t-shirt naturally drapes on the model, with realistic fabric behavior and authentic shadows. Keep the subject's original face, body shape, pose, skin tone, and the neutral background unchanged. Match the vertical 9:16 aspect ratio, cropping if needed, but do not cut the subject. Show the full figure from head to mid-thigh. Output only the final image as specified.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with straight-leg, casual pants in a light grey color. The pants are made from a lightweight, smooth fabric with a matte finish and a slightly relaxed, loose fit. They feature an elastic waistband with a visible drawstring tie at the center front, large rectangular patch pockets on the upper thighs, and a simple hem at the ankle. The cut is full-length, ending at the ankle, and the pants have no visible cuffs, buttons, or zippers. Ensure the pants drape naturally and realistically over the subject’s body. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
-    "id": "43",
+    "id": "18",
     "name": "Pantalón cargo verde",
     "img": "/bd-img/18.webp",
-    "prompt": "Full-body vertical 9:16 image featuring a person standing against a neutral background, shown from head to mid-thigh. Dress the subject in a casual t-shirt with raglan sleeves: white torso with contrasting black sleeves, a black collar, and no prints or logos. The t-shirt is made from lightweight cotton with a smooth texture and has a regular, slightly loose fit, reaching the waist. Overlay this t-shirt naturally onto the person's body with realistic fabric draping and shadowing, ensuring the new garment looks convincingly worn. The subject's face, body shape, pose, skin tone, and the rest of the outfit, including their pants, remain unchanged. Keep the original background neutral and consistent, cropping as necessary to maintain the 9:16 aspect ratio without cutting off any part of the subject’s figure.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with straight-cut, loose-fitting cargo pants in an olive green color. The pants are made from a medium-weight, matte-finish fabric with a structured but slightly flexible texture. They feature a regular waist with a visible button and zipper closure at the front, belt loops, and flat front panels. There are two large flap cargo pockets on each outer thigh, as well as standard side seam pockets. The legs are full-length and end at the ankles, with adjustable drawstrings visible at the hem. The garment is free of embellishments and has a utilitarian design. Dress the subject with these pants digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
-    "id": "44",
+    "id": "19",
     "name": "Pantalón de vestir negro",
     "img": "/bd-img/19.webp",
-    "prompt": "Digitally dress the original subject in the provided image with the following clothing description: a casual t-shirt with raglan sleeves, featuring a white torso and black sleeves, made from lightweight cotton with a smooth texture. The fit is regular and slightly loose, reaching the waist, with a black collar and no prints or logos, and no visible functional elements. Overlay this t-shirt naturally onto the existing model's body, ensuring realistic fabric drape and behavior. Preserve the subject's original face, body shape, pose, skin tone, and the neutral background entirely unchanged. Compose the image in a vertical 9:16 aspect ratio, showing the full figure from head to mid-thigh, maintaining the original framing and composition and only cropping or adjusting as needed to fit 9:16 without cutting the subject. The result should be a realistic garment simulation, not a model replacement, with the background remaining consistent and neutral. Output only the final image.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with classic formal straight-leg trousers. The trousers are solid black, made from a smooth, medium-weight woven fabric with a matte, slightly structured texture. The cut is straight and tailored, featuring a mid-rise waist with belt loops, a flat front, and sharp pressed creases along the front of each leg. The full-length pants fall to the ankle, offering a relaxed yet refined silhouette—neither overly slim nor wide. Functional details include a concealed zipper fly with a hidden hook closure, two vertical side pockets, and no visible embellishments. The waistband is clean, and all seaming is discreet and minimal. Dress the original subject in these trousers, ensuring natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
-    "id": "45",
+    "id": "20",
     "name": "Pantalón corto beige",
     "img": "/bd-img/20.webp",
-    "prompt": "**Prompt:** A full-figure vertical image (9:16 aspect ratio) of a person wearing khaki shorts. Digitally overlay a casual t-shirt with raglan sleeves onto the subject’s upper body. The t-shirt should have a white torso and black sleeves, made from lightweight cotton with a smooth texture. The fit is regular, slightly loose, and the length reaches the waist. Add a black collar and ensure there are no prints or logos. Show natural draping and realistic fabric behavior on the model’s body, preserving the original face, body shape, pose, skin tone, and background. Display the subject from head to mid-thigh, maintaining a neutral and consistent background. Do not alter the original framing other than necessary cropping to achieve a vertical 9:16 view without cutting off the subject.",
-    "category": {
-      "id": "4",
-      "name": "Pantalones"
-    }
+    "prompt": "Dress the original subject in the provided image with a pair of casual khaki shorts. The shorts are made of lightweight, smooth fabric, likely nylon or a synthetic blend, giving them a slightly matte appearance. They feature a mid-rise, straight cut that fits comfortably without being too tight or too loose, ending a few inches above the knee. The shorts have a clean, flat front design, a single button closure at the waistband, and a concealed zipper fly. The waistband includes belt loops and there are two diagonally set front pockets without visible flaps or zippers. There are no visible embellishments, cuffs, or logos. The overall look is minimalist, functional, and versatile for casual wear. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "4"
   },
   {
-    "id": "46",
+    "id": "21",
     "name": "Campera de cuero negra",
     "img": "/bd-img/21.webp",
-    "prompt": "Create a vertical 9:16 image showing the original subject from the provided photo, maintaining their face, body shape, pose, skin tone, and the original neutral background unchanged. Digitally overlay a casual t-shirt with raglan sleeves onto the subject's body, ensuring realistic fabric draping and a natural appearance. The t-shirt should have a white torso with black sleeves and a black collar, made of lightweight cotton with a smooth texture. It must be a regular fit, slightly loose, reaching the waist, with no prints, logos, or visible functional elements. Preserve the original framing and composition, showing the subject from head to mid-thigh, and adjust the crop as necessary to fit the 9:16 aspect ratio without cutting off the subject.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a black faux leather biker-style jacket. The jacket has a fitted, waist-length cut with a sleek, structured silhouette. It features a small, banded collar and a front zip closure with a silver zipper. The sleeves are long and slightly tapered, ending in textured, ribbed cuffs for added detail. There are horizontal zippered pockets on both sides at the waist, and the bottom hem is finished with a wide, textured panel that matches the cuffs. The material has a smooth, matte finish with subtle stitching details along the seams. The overall look is modern and minimalist, with no visible embellishments aside from the functional silver zippers and textured panels. Dress the subject with this jacket, ensuring natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
-    "id": "47",
+    "id": "22",
     "name": "Campera inflable azul",
     "img": "/bd-img/22.webp",
-    "prompt": "Create a vertical 9:16 image featuring the original subject from the provided photo. Keep the subject's face, body shape, skin tone, pose, and the neutral background exactly as they are. Digitally overlay a casual t-shirt with raglan sleeves onto the subject’s body, ensuring the clothing drapes naturally and realistically. The t-shirt should have a white torso and black sleeves, made from lightweight cotton with a smooth texture. The fit should be regular and slightly loose, with the shirt length reaching the waist. Include a black collar and ensure there are no prints or logos. No functional elements should be visible. Make sure the garment simulation is realistic and integrated seamlessly, showing the full figure from head to mid-thigh, maintaining the original framing and composition, adjusted for a 9:16 vertical aspect ratio. Do not alter the subject’s features or the background. Output only the final image.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a casual, hooded puffer jacket. The jacket is primarily a deep navy blue color with a matte, lightly shiny synthetic fabric, featuring horizontal quilted stitching for a padded, insulated texture. It has a straight, relaxed fit that extends slightly below the waist, long sleeves with elasticated cuffs, and a full-length front zipper closure. The hood is attached and lined in a similar blue fabric. There are two vertical zippered hand pockets on the front. The hem is straight, with subtle adjustments possible at the hood. No external logos or extra embellishments are present. Dress the original subject in this jacket, ensuring natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
-    "id": "48",
+    "id": "23",
     "name": "Campera de jean celeste",
     "img": "/bd-img/23.webp",
-    "prompt": "I'm sorry, but I cannot generate the requested image. However, here is a suitable prompt for garment simulation based on your description: --- **Prompt for Garment Simulation (9:16 Vertical Format):** Digitally dress the original subject in the image with a casual t-shirt featuring raglan sleeves. The t-shirt has a white torso and black sleeves, crafted from lightweight cotton with a smooth texture. It fits regularly, appearing slightly loose, and reaches the waist. The t-shirt has a black collar, no prints or logos, and no visible functional elements. Overlay the t-shirt naturally onto the subject’s existing body so that the fabric appears realistic and drapes naturally. Maintain the subject's original face, body shape, pose, skin tone, and neutral background. The final image should be vertical with a 9:16 aspect ratio, showing the full figure from head to mid-thigh, keeping the original framing and composition. Adjust cropping as needed to fit 9:16 without cutting the subject. Ensure the background remains neutral and consistent throughout.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a classic, casual denim jacket featuring a light blue wash. The jacket is made from medium-weight denim fabric with a slightly faded texture. It has a straight fit and waist-length cut, with a traditional shirt-style collar. The long sleeves have buttoned cuffs. The front closure consists of five large metallic gold buttons, running down the center. Two chest pockets with flaps and matching gold buttons are present, along with visible vertical seams for added structure. The hem is straight, and there are no additional embellishments or patterns. The jacket is unlined, accentuating its casual, timeless appearance. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
-    "id": "49",
+    "id": "24",
     "name": "Campera deportiva roja",
     "img": "/bd-img/24.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure of the original subject from head to mid-thigh, maintaining the original pose, body shape, skin tone, and neutral background. Overlay a casual t-shirt with raglan sleeves onto the subject’s body. The t-shirt should have a white torso, black sleeves, and a black collar, made of lightweight cotton with a smooth texture. Ensure the fit is regular and slightly loose, with the hem reaching the waist. There are no prints, logos, or other functional elements. The digitally simulated garment must drape naturally and realistically over the existing body. Keep the original background unchanged and crop as needed to preserve the subject in the center without cutting any part of the figure.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a sporty, outdoor softshell jacket featuring a vibrant red color as the primary hue with subtle black accents on the zippers and hood toggles. The jacket is made of smooth, water-resistant technical fabric with a matte finish and medium-weight texture. It has a regular fit with straight-cut sleeves and body, reaching hip length. The design includes a high, zip-up collar integrated with an adjustable hood, long raglan sleeves for mobility, and three zippered pockets—two at the waist and one on the chest—all with visible waterproof zippers. Minimalist seam lines and no additional decoration enhance its functional, modern look. Dress the original subject in this jacket. The clothing must be digitally overlaid onto the existing model's body with natural draping and realistic fabric behavior. The subject's original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   },
   {
-    "id": "50",
+    "id": "25",
     "name": "Campera impermeable verde",
     "img": "/bd-img/25.webp",
-    "prompt": "Create a vertical 9:16 image showing the full figure of the original subject from head to mid-thigh. Overlay a digitally rendered casual t-shirt with raglan sleeves onto the existing model's body. The t-shirt should have a white torso, black sleeves, and a black collar, made from lightweight cotton with a smooth texture. The fit should be regular and slightly loose, reaching the waist, with no prints or logos or visible functional elements. Ensure the t-shirt drapes naturally and realistically, preserving the subject's original face, body shape, pose, skin tone, and the neutral background. Maintain the original framing and composition, cropping or adjusting to fit the 9:16 aspect ratio without cutting the subject. Only the t-shirt should be changed; all other aspects of the image must remain untouched.",
-    "category": {
-      "id": "5",
-      "name": "Camperas"
-    }
+    "prompt": "Dress the original subject in the provided image with a heavyweight, military-style jacket. The jacket is olive green, made from durable, weather-resistant synthetic fabric with a matte finish. It has a loose, oversized fit with a straight cut that falls below the waist. The design features a high, protective collar with a concealed hood, long voluminous sleeves with elastic cuffs, and prominent reinforced stitch lines. There are multiple large pockets with flaps on the chest and sides, as well as Velcro patches on the upper arms and chest. The jacket closes with a concealed front zipper covered by a broad storm flap with Velcro fastenings. No secondary colors, adornments, or decorative details are visible—only functional elements like pockets and patches. Dress the original subject in this jacket, ensuring the clothing is digitally overlaid onto the existing model’s body with natural draping and realistic fabric behavior. The subject’s original face, body shape, pose, skin tone, and background must remain entirely unchanged. This is a garment simulation, not a model replacement. Do not alter any visual or physical attributes of the person. Output must be in vertical format 9:16.",
+    "category": "5"
   }
 ]

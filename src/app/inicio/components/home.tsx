@@ -13,6 +13,7 @@ import { base64ToBlob } from "../../helpers/fun";
 import { CreateImg } from "../../types/createImg";
 import Image from "next/image";
 import higthFun from "../../helpers/hightFun";
+import IconCategory from "./iconCategory";
 
 export default function Home() {
     const [imgResult, setImgResult] = useState<string | null>(null);
@@ -125,6 +126,7 @@ export default function Home() {
     const funRStep1 = higthFun(setLoader,() =>{ 
         setStep(0);
         setCcActive(0);
+        setImgResult(null);
     });
     const funRStep2 = higthFun(setLoader,() => { 
         if(data.clothe){  
@@ -206,14 +208,17 @@ export default function Home() {
                                 <span className="w-full block text-center text-2xl font-bold text-gray-900">{targetProduct?.name}</span>
                                 </>
                             ) : (
-                                <span className="text-3xl font-bold text-gray-900">{targetProduct?.name}</span>
+                                <>
+                                    <IconCategory  icon={(targetProduct as Category)?.icon || ""} />
+                                    <span className="text-3xl font-bold text-gray-900">{targetProduct?.name}</span>
+                                </>
                             )}
                         </div>
                     </div>
                     <Carucel
                         title={isStepCategory
                             ? "Categorias"
-                            : (targetProduct as clothe).category?.name || "Prendas"}
+                            : (targetProduct as clothe)?.category?.name || "No hay stock de esta categoria"}
                         products={targetProducts}
                         active={isStepCategory ? ccActive : cpActive}
                     />
@@ -245,7 +250,14 @@ export default function Home() {
           }
         }
       },[data, step, categories, products]);
-     
+    /*Cuando categoria o productos son [] no se puede usar la botones*/
+    useEffect(()=>{
+        if(step!==0 && (categories.length === 0 || (products &&  products.length === 0))){
+            setFunctionNext(null);
+            setFunctionPrev(null);
+            setFunctionPrincipal(null);
+        }
+    },[categories,products])
     return (
         <main className="h-[100vh] w-full overflow-hidden relative bg-amber-50">
             <SonnerSimple /> 

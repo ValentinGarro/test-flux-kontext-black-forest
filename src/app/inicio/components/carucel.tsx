@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { Category } from "../types/category";
-import { clothe } from "../types/clothe";
+import { useEffect, useState } from "react"; 
 import Image from "next/image";
+import { Category } from "../../types/category";
+import { clothe } from "../../types/clothe";
 
 export default function Carucel ({
   active = 0,
@@ -46,7 +46,7 @@ export default function Carucel ({
       >
         {props.slice(page * pageSize, (page + 1) * pageSize).map((c, idx) => (
           <div
-            key={`c-${c.id}`}
+            key={`c-${c.id}-${c.name}-${idx}`}
             className={`flex flex-col items-center justify-center h-32 w-32 rounded-2xl bg-amber-50 text-gray-900 text-2xl font-bold shadow-lg
               ${idx === activeInPage && page === currentPage ? "ring-4 ring-amber-400 scale-105 z-10" : ""}
               transition-all duration-200

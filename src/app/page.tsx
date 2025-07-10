@@ -25,7 +25,7 @@ export default function Page() {
     // Animación de puntitos
     const dotsInterval = setInterval(() => {
       dotCount = dotCount >= 3 ? 0 : dotCount + 1;
-      setTitle(`Cargando${'.'.repeat(dotCount)}`);
+      setTitle(`Cargando ${'.'.repeat(dotCount)}`);
     }, 300);
 
     fetchClothes().then((data) => {
@@ -42,7 +42,7 @@ export default function Page() {
   return (
     <section className={`h-screen w-full ${title.includes("Cargando") ? "pb-60 " : "pb-20"}  flex items-end justify-center bg-amber-50`}>
       <h1 
-        className="font-bold text-gray-800 text-center text-5xl" 
+        className={`font-bold text-gray-800 text-left mx-auto text-5xl ${title.includes("Cargando") ? "w-65" : "w-full"}`} 
         dangerouslySetInnerHTML={{ 
           __html: title.replace(/\n/g, '<br> <br>') 
         }}
