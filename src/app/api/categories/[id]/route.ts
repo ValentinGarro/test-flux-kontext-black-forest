@@ -1,11 +1,11 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 import { categorySchema } from "../../../schemas/category";
 import { Category } from "../../../types/category";
 
 export async function GET(
-  request: Request,
+  request:  NextRequest,
   { params }: { params: { id: string } }
 ) {
   try {

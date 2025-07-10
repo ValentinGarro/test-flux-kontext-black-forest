@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_BLACK_FOREST_API_KEY=${NEXT_PUBLIC_BLACK_FOREST_API_KEY}
+        - NEXT_PUBLIC_GENERETE=${NEXT_PUBLIC_GENERETE}
+        - NEXT_PUBLIC_PROMPT_WEBHOOK=${NEXT_PUBLIC_PROMPT_WEBHOOK}
+    networks:
+      - caddy
+    restart: always
+    ports:
+      - "6113:6113"
+    labels:  
+      - caddy=espejomagico.coradir.com.ar
+      - caddy.reverse_proxy="{{upstreams 6113}}"  
+    environment: 
+      - NEXT_PUBLIC_BLACK_FOREST_API_KEY=${NEXT_PUBLIC_BLACK_FOREST_API_KEY}
+      - NEXT_PUBLIC_GENERETE=${NEXT_PUBLIC_GENERETE}
+      - NEXT_PUBLIC_PROMPT_WEBHOOK=${NEXT_PUBLIC_PROMPT_WEBHOOK}
+    volumes:
+       - web-espejo-magico:/app/uploads
+volumes:
+  web-espejo-magico:
+networks:
+  caddy:
+    name: caddy
+    external: true

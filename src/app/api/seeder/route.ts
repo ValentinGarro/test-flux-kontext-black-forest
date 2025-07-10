@@ -22,8 +22,7 @@ export async function GET(request: Request) {
     
     // Validar con Zod
     const products = clothesArraySchema.parse(rawProducts);
-    
-    console.log(`Total productos válidos: ${products.length}`);
+     
 
     let updatedCount = 0;
     const updatedProducts = [...products]; // Copia del array original
@@ -36,7 +35,7 @@ export async function GET(request: Request) {
       const needsUpdate = !product.prompt || product.prompt.trim() === "";
       
       if (needsUpdate) {
-        console.log(`[${i + 1}/${products.length}] Actualizando producto: ${product.name}`);
+       
         
         // Leer la imagen desde el disco y convertirla a base64
         const imgPath = path.join(process.cwd(), "public", product.img.replace(/^\//, ""));
@@ -53,7 +52,7 @@ export async function GET(request: Request) {
               timeout: 60000 // 60 segundos timeout
             });
             
-            console.log(`✅ Respuesta webhook para ${product.name}:`, res.data);
+           
             
             const prompt = res.data.prompt;
             if (prompt && typeof prompt === 'string' && prompt.trim().length > 0) {
@@ -63,7 +62,7 @@ export async function GET(request: Request) {
                 prompt: prompt.trim()
               });
               updatedCount++;
-              console.log(`✅ Producto ${product.name} actualizado exitosamente`);
+               
             } else {
               console.warn(`⚠️ Prompt vacío para ${product.name}`);
             }
@@ -78,12 +77,10 @@ export async function GET(request: Request) {
         
         // Opcional: agregar delay entre requests para no sobrecargar
         if (i < products.length - 1) { // No hacer delay en el último
-          console.log(`⏳ Esperando 2 segundos antes del siguiente...`);
+           
           await new Promise(resolve => setTimeout(resolve, 2000)); // 2 segundos delay
         }
-      } else {
-        console.log(`⏭️ [${i + 1}/${products.length}] ${product.name} ya tiene prompt, saltando...`);
-      }
+      } 
     }
 
     // Validar productos actualizados antes de guardar
