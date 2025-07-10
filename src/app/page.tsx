@@ -5,7 +5,7 @@ import Loader from "./components/loader";
 import { useRouter } from "next/navigation";
 
 export default function Page() {
-  const [title, setTitle] = useState<string>("Cargando");
+  const [title, setTitle] = useState<string>("Cargando...");
   const route = useRouter();
 
   const fetchClothes = async () => {
@@ -40,8 +40,13 @@ export default function Page() {
   }, []);
 
   return (
-    <section className="h-screen w-full pb-50 flex items-end justify-center bg-amber-50">
-      <h1 className={`font-bold text-gray-800 text-left ${title.includes("Cargando") ? "w-100 text-7xl " : "text-5xl"}`}>{title}</h1>
+    <section className={`h-screen w-full ${title.includes("Cargando") ? "pb-60 " : "pb-20"}  flex items-end justify-center bg-amber-50`}>
+      <h1 
+        className="font-bold text-gray-800 text-center text-5xl" 
+        dangerouslySetInnerHTML={{ 
+          __html: title.replace(/\n/g, '<br> <br>') 
+        }}
+      />
       <Loader show={true} />
     </section>
   );

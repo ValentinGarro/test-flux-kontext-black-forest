@@ -4,15 +4,15 @@ import axios from "axios";
 import Camera from "./camera";
 import { showToast, SonnerSimple } from "./SonnerSimple";
 import SectionButtons from "./sectionButtons";
-import Loader from "./loader";  
-import { Category } from "../types/category";
+import Loader from "../../components/loader";  
+import { Category } from "../../types/category";
 import Modal from "./modal";
 import Carucel from "./carucel";
-import { clothe } from "../types/clothe"; 
-import { base64ToBlob } from "../helpers/fun";
-import { CreateImg } from "../types/createImg";
+import { clothe } from "../../types/clothe"; 
+import { base64ToBlob } from "../../helpers/fun";
+import { CreateImg } from "../../types/createImg";
 import Image from "next/image";
-import higthFun from "../helpers/hightFun";
+import higthFun from "../../helpers/hightFun";
 
 export default function Home() {
     const [imgResult, setImgResult] = useState<string | null>(null);
